@@ -131,7 +131,7 @@ book = json.loads(book_json)
 
 # files we DO NOT copy from the template into the rendered repo
 EXCLUDE_FILES = {'books.yaml', 'koutoub-spawn.sh'}
-EXCLUDE_DIRS  = {'docs', 'www-overlay'}
+EXCLUDE_DIRS  = {'docs', 'www-overlay', '.git', '_bulk-logs', 'node_modules', 'android', 'ios', 'releases'}
 
 # files that should NOT have placeholder substitution (binary or copy-as-is)
 NO_RENDER_PATTERNS = ['*.png', '*.jpg', '*.jpeg', '*.svg', '*.apk', '*.aab', '*.ipa', '*.keystore', '*.jks']
