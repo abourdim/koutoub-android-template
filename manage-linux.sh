@@ -181,6 +181,11 @@ cmd_sync() {
     if [ -x "$PROJECT_DIR/_patch_signing.py" ]; then
       python3 "$PROJECT_DIR/_patch_signing.py" "$ANDROID_DIR/app/build.gradle"
     fi
+    # If this is a BLE app (web-bluetooth-shim.js present in www/), wire AndroidManifest perms
+    if [ -f "$WWW_DIR/web-bluetooth-shim.js" ] && [ -x "$PROJECT_DIR/_patch_ble.py" ]; then
+      info "BLE app detected (web-bluetooth-shim.js in www/) — patching AndroidManifest..."
+      python3 "$PROJECT_DIR/_patch_ble.py" "$PROJECT_DIR"
+    fi
   fi
   npx cap sync android
   ok "Android project refreshed."

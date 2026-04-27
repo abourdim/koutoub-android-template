@@ -8624,3 +8624,92 @@ books:
     Propulsé par workshop-diy.org
 
     '
+- slug: bit-playground
+  needs_ble: true
+  category: Education
+  APP_NAME: Bit Playground
+  TITLE_AR: ساحة البت
+  TITLE_EN: Bit Playground
+  TITLE_FR: Bit Playground
+  BOOK_TITLE_AR: ساحة البت
+  BOOK_TITLE_EN: Bit Playground
+  BOOK_TITLE_FR: Bit Playground
+  EMOJI: 🎮
+  KOUTOUB_DIR: app-01-bit-playground
+  BRAND_PRIMARY: '#C2410C'
+  BRAND_PRIMARY_DARK: '#7C2D12'
+  BRAND_ACCENT: '#FBBF24'
+  BRAND_GRADIENT_MID: '#9A3412'
+  BG_DARK: '#1C0F08'
+  TAGLINE_AR: لوحة تحكم micro:bit V2 عبر البلوتوث — للأطفال
+  TAGLINE_EN: micro:bit V2 control panel via Bluetooth — for kids
+  TAGLINE_FR: Tableau de bord micro:bit V2 via Bluetooth — pour enfants
+  ABOUT_AR: لوحة تحكم تفاعلية للوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة. ارسم على شاشة LED، تحكم في المحركات، اعرض
+    القراءات الحية، وارسم رسوماً بيانية.
+  ABOUT_EN: Interactive web control panel for the BBC micro:bit V2 over Bluetooth Low Energy. Draw on the LED matrix, control
+    servos, view live sensor readings, and plot graphs.
+  ABOUT_FR: Tableau de bord interactif pour le BBC micro:bit V2 via Bluetooth Low Energy. Dessinez sur la matrice LED, contrôlez
+    les servomoteurs, consultez les lectures en direct.
+  SHORT_DESC_AR: لوحة تحكم micro:bit V2 عبر البلوتوث — للأطفال
+  SHORT_DESC_EN: micro:bit V2 control panel via Bluetooth — for kids
+  SHORT_DESC_FR: Tableau de bord micro:bit V2 — pour enfants
+  FULL_DESC_AR: '🎮 ساحة البت — لوحة تحكم micro:bit V2
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE).
+
+
+    ✨ المزايا
+
+    • اتصال BLE بنقرة واحدة
+
+    • مصفوفة LED قابلة للرسم 5x5
+
+    • تحكم في المحركات (servos)
+
+    • قراءات حية: الحرارة، الضوء، الصوت
+
+    • رسوم بيانية حية
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '🎮 Bit Playground — micro:bit V2 Control Panel
+
+
+    Interactive app that connects to the BBC micro:bit V2 over Bluetooth Low Energy (BLE).
+
+
+    ✨ Features
+
+    • One-click BLE connection
+
+    • 5x5 LED matrix drawing
+
+    • Servo control (P1/P2)
+
+    • Live sensors: temperature, light, sound
+
+    • Real-time charts
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '🎮 Bit Playground — Tableau de bord micro:bit V2
+
+
+    Application interactive qui se connecte au BBC micro:bit V2 via Bluetooth Low Energy (BLE).
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE en un clic
+
+    • Matrice LED 5x5 dessinable
+
+    • Contrôle de servomoteurs
+
+    • Capteurs en direct
+
+    • Graphiques en temps réel
+
+
+    De workshop-diy.org'

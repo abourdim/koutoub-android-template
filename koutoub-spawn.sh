@@ -214,12 +214,65 @@ else
 fi
 
 # ---------- overlay www-overlay/ files (e.g. tts-polyfill.js) ----------
+# Skip BLE-specific overlays here — they're applied conditionally below.
 if [ -d "$TPL_DIR/www-overlay" ] && [ -n "$(ls -A "$TPL_DIR/www-overlay" 2>/dev/null)" ]; then
   head1 "Overlaying Capacitor helpers into www/"
   for f in "$TPL_DIR/www-overlay"/*; do
+    base=$(basename "$f")
+    case "$base" in
+      web-bluetooth-shim.js) continue ;;  # BLE-only, applied below
+    esac
     cp "$f" "$TARGET_DIR/www/"
-    ok "overlaid $(basename "$f")"
+    ok "overlaid $base"
   done
+fi
+
+# ---------- BLE wiring (if books.yaml has needs_ble: true) ----------
+NEEDS_BLE=$(printf '%s' "$BOOK_JSON" | python3 -c "import json,sys; b=json.load(sys.stdin); print('1' if b.get('needs_ble') else '0')" 2>/dev/null || echo 0)
+if [ "$NEEDS_BLE" = "1" ]; then
+  head1 "BLE wiring (needs_ble: true)"
+  # 1. Copy shim into www/
+  cp "$TPL_DIR/www-overlay/web-bluetooth-shim.js" "$TARGET_DIR/www/web-bluetooth-shim.js"
+  ok "shim → www/web-bluetooth-shim.js"
+
+  # 2. Inject <script> tags into www/index.html (cordova.js bridge + shim, before app code)
+  python3 - <<PY
+import pathlib
+p = pathlib.Path("$TARGET_DIR/www/index.html")
+if not p.exists():
+    print('  ! www/index.html not found — skipping injection')
+else:
+    s = p.read_text()
+    if 'web-bluetooth-shim.js' in s:
+        print('  · already injected')
+    else:
+        tags = '<script src="cordova.js"></script>\n<script src="cordova_plugins.js"></script>\n<script src="web-bluetooth-shim.js"></script>\n'
+        if '<head>' in s:
+            s = s.replace('<head>', '<head>\n' + tags, 1)
+        else:
+            s = tags + s
+        p.write_text(s)
+        print('  ✓ injected script tags into www/index.html')
+PY
+
+  # 3. Add @capacitor-community/bluetooth-le to package.json dependencies
+  python3 - <<PY
+import json, pathlib
+p = pathlib.Path("$TARGET_DIR/package.json")
+d = json.loads(p.read_text())
+deps = d.setdefault('dependencies', {})
+if '@capacitor-community/bluetooth-le' not in deps:
+    deps['@capacitor-community/bluetooth-le'] = '^8.1.3'
+    p.write_text(json.dumps(d, indent=2))
+    print('  ✓ added @capacitor-community/bluetooth-le to package.json')
+else:
+    print('  · BLE plugin already in package.json')
+PY
+
+  # 4. Copy _patch_ble.py into wrapper so manage-*.sh can call it after `cap add android`
+  cp "$TPL_DIR/_patch_ble.py" "$TARGET_DIR/_patch_ble.py"
+  chmod +x "$TARGET_DIR/_patch_ble.py"
+  ok "_patch_ble.py copied (run after `npx cap add android` to wire AndroidManifest)"
 fi
 
 # ---------- git init ----------
