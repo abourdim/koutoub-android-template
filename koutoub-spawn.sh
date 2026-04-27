@@ -206,9 +206,24 @@ trap "rm -rf $TMP_WWW" EXIT
 
 if git clone --depth=1 -q "https://github.com/${SRC_REPO}.git" "$TMP_WWW/src"; then
   ok "cloned $SRC_REPO"
-  # copy everything except .git
-  ( cd "$TMP_WWW/src" && tar -cf - --exclude='.git' . ) | ( cd "$TARGET_DIR/www" && tar -xf - )
-  ok "www/ populated ($(ls "$TARGET_DIR/www" | wc -l) entries)"
+  src_size=$(du -sh "$TMP_WWW/src" | awk '{print $1}')
+  # Slim the source: keep runtime files, drop docs/marketing/firmware-source.
+  # Excluded directories: docs, etsy-package, makecode-extension, tests, .github
+  # Excluded file patterns: *.md, *.ts (firmware source), pxt.json, package.json, package-lock.json, etc.
+  ( cd "$TMP_WWW/src" && tar -cf - \
+      --exclude='.git' \
+      --exclude='./docs' --exclude='./etsy-package' --exclude='./makecode-extension' \
+      --exclude='./tests' --exclude='./.github' --exclude='./node_modules' \
+      --exclude='./.vscode' --exclude='./.idea' \
+      --exclude='*.md' --exclude='*.ts' \
+      --exclude='./pxt.json' --exclude='./product.json' \
+      --exclude='./package.json' --exclude='./package-lock.json' \
+      --exclude='./.gitignore' --exclude='./.gitattributes' \
+      --exclude='./LICENSE' --exclude='./LICENSE.txt' \
+      --exclude='./tests.html' --exclude='./_TEMPLATE_README.md' \
+      . ) | ( cd "$TARGET_DIR/www" && tar -xf - )
+  dst_size=$(du -sh "$TARGET_DIR/www" | awk '{print $1}')
+  ok "www/ populated ($(ls "$TARGET_DIR/www" | wc -l) entries, slimmed $src_size → $dst_size)"
 else
   warn "could not clone $SRC_REPO — leaving www/ empty (you can populate it manually)"
 fi
