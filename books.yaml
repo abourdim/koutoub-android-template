@@ -9626,3 +9626,1116 @@ books:
 
 
     De workshop-diy.org'
+- slug: al-saaiqa
+  category: Books & Reference
+  APP_NAME: al-Saaiqa
+  TITLE_AR: الصاعقة
+  TITLE_EN: The Thunderbolt
+  TITLE_FR: La Foudre
+  BOOK_TITLE_AR: الحق المر
+  BOOK_TITLE_EN: The Bitter Truth
+  BOOK_TITLE_FR: La Vérité Amère
+  EMOJI: ⛈️
+  KOUTOUB_DIR: 48-al-saaiqa
+  BRAND_PRIMARY: '#3D2A6E'
+  BRAND_PRIMARY_DARK: '#241844'
+  BRAND_ACCENT: '#F5C842'
+  BRAND_GRADIENT_MID: '#2E1F58'
+  BG_DARK: '#0F0A21'
+  TAGLINE_AR: الصاعقة — من حق محمد الغزالي المر
+  TAGLINE_EN: The Thunderbolt — from al-Ghazali's "The Bitter Truth"
+  TAGLINE_FR: La Foudre — d'après "La Vérité Amère" du Cheikh al-Ghazali
+  ABOUT_AR: تطبيق تفاعلي ثلاثي اللغة (عربي/إنجليزي/فرنسي) مستوحى من كتاب "الحق المر" للشيخ محمد الغزالي رحمه الله. ٤٠ مقالاً
+    في خمس فئات، مع متعقّب القراءة وعداد ٧ أيام لذكرى الشيخ.
+  ABOUT_EN: Interactive trilingual app (Arabic/English/French) based on <strong>"The Bitter Truth"</strong> by Sheikh Mohammed
+    al-Ghazali. 40 curated essays in 5 categories, with bookmarks, reading-progress tracker, al-Ghazali life timeline, and
+    7-day memorial countdown.
+  ABOUT_FR: Application interactive trilingue (arabe/anglais/français) inspirée du livre <strong>« La Vérité Amère »</strong>
+    du Cheikh Mohammed al-Ghazali. 40 essais répartis en 5 catégories, suivi de lecture, chronologie biographique, compte
+    à rebours mémoriel de 7 jours.
+  SHORT_DESC_AR: الصاعقة — مقالات الشيخ الغزالي من "الحق المر"
+  SHORT_DESC_EN: The Thunderbolt — Sheikh al-Ghazali essays from "The Bitter Truth"
+  SHORT_DESC_FR: La Foudre — essais d'al-Ghazali tirés de "La Vérité Amère"
+  FULL_DESC_AR: '⛈️ الصاعقة
+
+
+    تطبيق تفاعلي ثلاثي اللغة (عربي/إنجليزي/فرنسي) مستوحى من كتاب "الحق المر" للشيخ محمد الغزالي رحمه الله (1917-1996).
+
+
+    📚 عن الكتاب
+
+
+    ٤٠ مقالاً مختاراً في خمس فئات. متعقّب القراءة، إشارات مرجعية، البحث، خط زمني لحياة الشيخ، وعدّاد ٧ أيام لذكراه.
+
+
+    ✨ المزايا
+
+
+    • ٤٠ مقالا منسقا في ٥ فئات
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • ثلاث سمات لونية
+
+    • وضع القراءة، قارئ صوتي، واجهة عربية بدعم كامل (RTL)
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '⛈️ al-Saaiqa — The Thunderbolt
+
+
+    Interactive trilingual app (Arabic/English/French) based on the book "The Bitter Truth" (الحق المر) by Sheikh Mohammed
+    al-Ghazali (1917-1996).
+
+
+    📚 About the book
+
+
+    40 curated essays in 5 categories. Bookmarks, reading-progress tracker, search, al-Ghazali life timeline, and 7-day memorial
+    countdown.
+
+
+    ✨ Features
+
+
+    • 40 curated essays in 5 categories
+
+    • Three languages: Arabic, English, French
+
+    • Three color themes
+
+    • Reading mode, audio narrator, full RTL Arabic support
+
+    • Works offline — no internet required
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '⛈️ al-Saaiqa — La Foudre
+
+
+    Application interactive trilingue (arabe/anglais/français) inspirée du livre « La Vérité Amère » (الحق المر) du Cheikh
+    Mohammed al-Ghazali (1917-1996).
+
+
+    📚 À propos du livre
+
+
+    40 essais sélectionnés en 5 catégories. Marque-pages, suivi de lecture, recherche, chronologie biographique, compte à
+    rebours mémoriel de 7 jours.
+
+
+    ✨ Fonctionnalités
+
+
+    • 40 essais sélectionnés en 5 catégories
+
+    • Trois langues : arabe, anglais, français
+
+    • Trois thèmes visuels
+
+    • Mode lecture, narrateur audio, prise en charge complète de l''arabe (RTL)
+
+    • Fonctionne hors ligne — aucune connexion requise
+
+
+    De workshop-diy.org'
+- slug: tesbih
+  category: Lifestyle
+  APP_NAME: Tesbih
+  TITLE_AR: تسبيح
+  TITLE_EN: Tesbih
+  TITLE_FR: Tesbih
+  BOOK_TITLE_AR: تسبيح
+  BOOK_TITLE_EN: Tesbih
+  BOOK_TITLE_FR: Tesbih
+  EMOJI: 📿
+  KOUTOUB_DIR: app-tier-s-tesbih
+  BRAND_PRIMARY: '#1E5631'
+  BRAND_PRIMARY_DARK: '#0F3119'
+  BRAND_ACCENT: '#D4AF37'
+  BRAND_GRADIENT_MID: '#163E22'
+  BG_DARK: '#091812'
+  TAGLINE_AR: عداد التسبيح الرقمي — يومي، بدون إنترنت، اهتزاز عند العد
+  TAGLINE_EN: Digital prayer/dhikr counter — daily, offline, vibration on tap
+  TAGLINE_FR: Compteur numérique de dhikr — quotidien, hors ligne, vibration
+  ABOUT_AR: عداد تسبيح رقمي بسيط وجميل للذكر اليومي. اضغط، عدّ، ودع الجهاز يهتز بلطف مع كل تسبيحة. يعمل بدون اتصال بالإنترنت.
+  ABOUT_EN: A simple, beautiful digital tasbih counter for daily dhikr. Tap, count, and let the device vibrate gently for
+    each tasbih. Works fully offline.
+  ABOUT_FR: Un compteur tasbih numérique simple et beau pour le dhikr quotidien. Tapez, comptez, et laissez l'appareil vibrer
+    doucement pour chaque tasbih. Fonctionne entièrement hors ligne.
+  SHORT_DESC_AR: عداد التسبيح الرقمي — يومي، بدون إنترنت، اهتزاز عند العد
+  SHORT_DESC_EN: Digital prayer/dhikr counter — daily, offline, vibration on tap
+  SHORT_DESC_FR: Compteur numérique de dhikr — quotidien, hors ligne, vibration
+  FULL_DESC_AR: '📿 تسبيح
+
+
+    عداد تسبيح رقمي بسيط وجميل للذكر اليومي. اضغط، عدّ، ودع الجهاز يهتز بلطف مع كل تسبيحة. يعمل بدون اتصال بالإنترنت.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '📿 Tesbih
+
+
+    A simple, beautiful digital tasbih counter for daily dhikr. Tap, count, and let the device vibrate gently for each tasbih.
+    Works fully offline.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '📿 Tesbih
+
+
+    Un compteur tasbih numérique simple et beau pour le dhikr quotidien. Tapez, comptez, et laissez l''appareil vibrer doucement
+    pour chaque tasbih. Fonctionne entièrement hors ligne.
+
+
+    — De workshop-diy.org'
+- slug: menesik
+  category: Lifestyle
+  APP_NAME: Menesik
+  TITLE_AR: مناسك
+  TITLE_EN: Menesik
+  TITLE_FR: Menesik
+  BOOK_TITLE_AR: مناسك
+  BOOK_TITLE_EN: Menesik
+  BOOK_TITLE_FR: Menesik
+  EMOJI: 🕌
+  KOUTOUB_DIR: app-tier-s-menesik
+  BRAND_PRIMARY: '#0E4D2A'
+  BRAND_PRIMARY_DARK: '#06301A'
+  BRAND_ACCENT: '#C9A84C'
+  BRAND_GRADIENT_MID: '#0A3E22'
+  BG_DARK: '#04190E'
+  TAGLINE_AR: دليل شامل متعدد اللغات لمناسك الحج والعمرة — بدون اتصال
+  TAGLINE_EN: Multilingual Hajj & Umrah pilgrim guide — offline, AR/FR/EN
+  TAGLINE_FR: Guide multilingue du Hajj et de la Omra — hors ligne, AR/FR/EN
+  ABOUT_AR: دليل شامل متعدد اللغات لمناسك الحج والعمرة (عربي/فرنسي/إنجليزي). يشمل المناسك خطوة بخطوة، قائمة مراجعة تفاعلية
+    مع تتبع التقدم، ومجموعة منتقاة من الأدعية. يعمل بدون اتصال بالإنترنت تمامًا.
+  ABOUT_EN: Complete Hajj & Umrah pilgrim guide in three languages (AR/FR/EN). Includes step-by-step rituals, an interactive
+    checklist with progress tracking, and a curated dua collection. Fully offline-capable — essential when there is no signal
+    in Mecca.
+  ABOUT_FR: Guide multilingue complet du Hajj et de la Omra (AR/FR/EN). Inclut les rites étape par étape, une checklist interactive
+    avec suivi de progression, et une collection de duas. Entièrement hors ligne — essentiel quand il n'y a pas de réseau
+    à La Mecque.
+  SHORT_DESC_AR: دليل شامل متعدد اللغات لمناسك الحج والعمرة — بدون اتصال
+  SHORT_DESC_EN: Multilingual Hajj & Umrah pilgrim guide — offline, AR/FR/EN
+  SHORT_DESC_FR: Guide multilingue du Hajj et de la Omra — hors ligne, AR/FR/EN
+  FULL_DESC_AR: '🕌 مناسك
+
+
+    دليل شامل متعدد اللغات لمناسك الحج والعمرة (عربي/فرنسي/إنجليزي). يشمل المناسك خطوة بخطوة، قائمة مراجعة تفاعلية مع تتبع
+    التقدم، ومجموعة منتقاة من الأدعية. يعمل بدون اتصال بالإنترنت تمامًا.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🕌 Menesik
+
+
+    Complete Hajj & Umrah pilgrim guide in three languages (AR/FR/EN). Includes step-by-step rituals, an interactive checklist
+    with progress tracking, and a curated dua collection. Fully offline-capable — essential when there is no signal in Mecca.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🕌 Menesik
+
+
+    Guide multilingue complet du Hajj et de la Omra (AR/FR/EN). Inclut les rites étape par étape, une checklist interactive
+    avec suivi de progression, et une collection de duas. Entièrement hors ligne — essentiel quand il n''y a pas de réseau
+    à La Mecque.
+
+
+    — De workshop-diy.org'
+- slug: hajj-guide
+  category: Lifestyle
+  APP_NAME: Hajj Guide
+  TITLE_AR: دليل الحج
+  TITLE_EN: Hajj Guide
+  TITLE_FR: Guide du Hajj
+  BOOK_TITLE_AR: دليل الحج
+  BOOK_TITLE_EN: Hajj Guide
+  BOOK_TITLE_FR: Guide du Hajj
+  EMOJI: 🕋
+  KOUTOUB_DIR: app-tier-s-hajj-guide
+  BRAND_PRIMARY: '#1B3A2E'
+  BRAND_PRIMARY_DARK: '#0E1F19'
+  BRAND_ACCENT: '#D4A857'
+  BRAND_GRADIENT_MID: '#152D24'
+  BG_DARK: '#070F0C'
+  TAGLINE_AR: دليل الحج ٢٠٢٦ يومًا بيوم — تطبيق ويب تقدمي ثلاثي اللغة
+  TAGLINE_EN: Day-by-day Hajj 2026 companion — trilingual PWA
+  TAGLINE_FR: Compagnon du Hajj 2026 jour par jour — PWA trilingue
+  ABOUT_AR: دليل الحج ٢٠٢٦ يومًا بيوم. ٥ أيام بتفاصيلها مع جداول الساعات والأدعية والتنبيهات وقوائم الأمتعة. ثلاثي اللغة (فرنسي/عربي/إنجليزي)
+    مع دعم كامل للعربية. تطبيق ويب تقدمي قابل للتثبيت، يعمل بدون اتصال.
+  ABOUT_EN: Day-by-day Hajj 2026 companion. 5 detailed days with hourly schedules, duas, alerts, and packing checklists. Trilingual
+    French/Arabic/English with full RTL support. PWA-installable, fully offline.
+  ABOUT_FR: Compagnon Hajj 2026 jour par jour. 5 jours détaillés avec horaires, duas, alertes et listes à emporter. Trilingue
+    français/arabe/anglais avec support RTL complet. PWA installable, fonctionne hors ligne.
+  SHORT_DESC_AR: دليل الحج ٢٠٢٦ يومًا بيوم — تطبيق ويب تقدمي ثلاثي اللغة
+  SHORT_DESC_EN: Day-by-day Hajj 2026 companion — trilingual PWA
+  SHORT_DESC_FR: Compagnon du Hajj 2026 jour par jour — PWA trilingue
+  FULL_DESC_AR: '🕋 دليل الحج
+
+
+    دليل الحج ٢٠٢٦ يومًا بيوم. ٥ أيام بتفاصيلها مع جداول الساعات والأدعية والتنبيهات وقوائم الأمتعة. ثلاثي اللغة (فرنسي/عربي/إنجليزي)
+    مع دعم كامل للعربية. تطبيق ويب تقدمي قابل للتثبيت، يعمل بدون اتصال.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🕋 Hajj Guide
+
+
+    Day-by-day Hajj 2026 companion. 5 detailed days with hourly schedules, duas, alerts, and packing checklists. Trilingual
+    French/Arabic/English with full RTL support. PWA-installable, fully offline.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🕋 Guide du Hajj
+
+
+    Compagnon Hajj 2026 jour par jour. 5 jours détaillés avec horaires, duas, alertes et listes à emporter. Trilingue français/arabe/anglais
+    avec support RTL complet. PWA installable, fonctionne hors ligne.
+
+
+    — De workshop-diy.org'
+- slug: tethkir
+  category: Productivity
+  APP_NAME: Tethkir
+  TITLE_AR: تذكير
+  TITLE_EN: Tethkir
+  TITLE_FR: Tethkir
+  BOOK_TITLE_AR: تذكير
+  BOOK_TITLE_EN: Tethkir
+  BOOK_TITLE_FR: Tethkir
+  EMOJI: 📝
+  KOUTOUB_DIR: app-tier-s-tethkir
+  BRAND_PRIMARY: '#2D5C4A'
+  BRAND_PRIMARY_DARK: '#142D24'
+  BRAND_ACCENT: '#C8A951'
+  BRAND_GRADIENT_MID: '#1F4034'
+  BG_DARK: '#08130F'
+  TAGLINE_AR: مدير المهام الإسلامي + الملاحظات الآمنة — مدخلات صوتية، مشفر
+  TAGLINE_EN: Islamic task manager + secure notes — voice input, encrypted
+  TAGLINE_FR: Gestionnaire de tâches islamique + notes chiffrées — voix, sécurisé
+  ABOUT_AR: تطبيق إدارة المهام والملاحظات الآمنة بطابع إسلامي. مدخلات صوتية، ملاحظات صور، تشفير متعدد كلمات المرور، مزامنة
+    سحابية اختيارية. قابل للتثبيت كتطبيق ويب تقدمي على Android و iOS.
+  ABOUT_EN: Islamic-themed task manager and secure notes app. Voice input, image notes, multi-passphrase encryption, optional
+    cloud sync. PWA-installable on Android and iOS. Designed by a Muslim developer for daily use.
+  ABOUT_FR: Gestionnaire de tâches au thème islamique et notes sécurisées. Saisie vocale, notes images, chiffrement multi-passphrase,
+    synchronisation cloud optionnelle. Installable comme PWA sur Android et iOS.
+  SHORT_DESC_AR: مدير المهام الإسلامي + الملاحظات الآمنة — مدخلات صوتية، مشفر
+  SHORT_DESC_EN: Islamic task manager + secure notes — voice input, encrypted
+  SHORT_DESC_FR: Gestionnaire de tâches islamique + notes chiffrées — voix, sécurisé
+  FULL_DESC_AR: '📝 تذكير
+
+
+    تطبيق إدارة المهام والملاحظات الآمنة بطابع إسلامي. مدخلات صوتية، ملاحظات صور، تشفير متعدد كلمات المرور، مزامنة سحابية
+    اختيارية. قابل للتثبيت كتطبيق ويب تقدمي على Android و iOS.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '📝 Tethkir
+
+
+    Islamic-themed task manager and secure notes app. Voice input, image notes, multi-passphrase encryption, optional cloud
+    sync. PWA-installable on Android and iOS. Designed by a Muslim developer for daily use.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '📝 Tethkir
+
+
+    Gestionnaire de tâches au thème islamique et notes sécurisées. Saisie vocale, notes images, chiffrement multi-passphrase,
+    synchronisation cloud optionnelle. Installable comme PWA sur Android et iOS.
+
+
+    — De workshop-diy.org'
+- slug: al-maqlub
+  category: Books & Reference
+  APP_NAME: Al-Maqlub
+  TITLE_AR: المقلوب
+  TITLE_EN: Al-Maqlub
+  TITLE_FR: Al-Maqlub
+  BOOK_TITLE_AR: المقلوب
+  BOOK_TITLE_EN: Al-Maqlub
+  BOOK_TITLE_FR: Al-Maqlub
+  EMOJI: 🔄
+  KOUTOUB_DIR: app-tier-s-al-maqlub
+  BRAND_PRIMARY: '#5C3924'
+  BRAND_PRIMARY_DARK: '#2D1A11'
+  BRAND_ACCENT: '#E8B85C'
+  BRAND_GRADIENT_MID: '#3F2718'
+  BG_DARK: '#160C07'
+  TAGLINE_AR: الشعر المقلوب العربي — متحف ومنشئ ولعبة وقارئ
+  TAGLINE_EN: Arabic palindrome poetry — museum, creator, game, reciter
+  TAGLINE_FR: Poésie palindrome arabe — musée, créateur, jeu, récitant
+  ABOUT_AR: تطبيق أربعة في واحد لفن الشعر المقلوب العربي القديم. متحف يضم ١٠ قصائد مقلوبة كلاسيكية، استوديو تأليف مع رسم محور
+    التماثل، لعبة ألغاز تفاعلية، وقارئ ذو اتجاهين. جزء من عائلة كلامي للأدوات العربية.
+  ABOUT_EN: A four-in-one app for the ancient Arabic art of palindrome poetry. Museum of 10 verified classical palindromes,
+    real-time composition studio with symmetry-axis animation, interactive puzzle game, and dual-direction reciter. Part of
+    the Kalami Arabic tools family.
+  ABOUT_FR: Application quatre-en-un pour l'art ancien de la poésie palindrome arabe. Musée de 10 palindromes classiques,
+    studio de composition en temps réel avec animation d'axe de symétrie, jeu de puzzle interactif, et récitant bidirectionnel.
+  SHORT_DESC_AR: الشعر المقلوب العربي — متحف ومنشئ ولعبة وقارئ
+  SHORT_DESC_EN: Arabic palindrome poetry — museum, creator, game, reciter
+  SHORT_DESC_FR: Poésie palindrome arabe — musée, créateur, jeu, récitant
+  FULL_DESC_AR: '🔄 المقلوب
+
+
+    تطبيق أربعة في واحد لفن الشعر المقلوب العربي القديم. متحف يضم ١٠ قصائد مقلوبة كلاسيكية، استوديو تأليف مع رسم محور التماثل،
+    لعبة ألغاز تفاعلية، وقارئ ذو اتجاهين. جزء من عائلة كلامي للأدوات العربية.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🔄 Al-Maqlub
+
+
+    A four-in-one app for the ancient Arabic art of palindrome poetry. Museum of 10 verified classical palindromes, real-time
+    composition studio with symmetry-axis animation, interactive puzzle game, and dual-direction reciter. Part of the Kalami
+    Arabic tools family.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🔄 Al-Maqlub
+
+
+    Application quatre-en-un pour l''art ancien de la poésie palindrome arabe. Musée de 10 palindromes classiques, studio
+    de composition en temps réel avec animation d''axe de symétrie, jeu de puzzle interactif, et récitant bidirectionnel.
+
+
+    — De workshop-diy.org'
+- slug: web-kids
+  category: Education
+  APP_NAME: CodeKids
+  TITLE_AR: كود كيدز
+  TITLE_EN: CodeKids
+  TITLE_FR: CodeKids
+  BOOK_TITLE_AR: كود كيدز
+  BOOK_TITLE_EN: CodeKids
+  BOOK_TITLE_FR: CodeKids
+  EMOJI: 🚀
+  KOUTOUB_DIR: app-tier-s-web-kids
+  BRAND_PRIMARY: '#1F4D8C'
+  BRAND_PRIMARY_DARK: '#0E2447'
+  BRAND_ACCENT: '#FFB347'
+  BRAND_GRADIENT_MID: '#16386A'
+  BG_DARK: '#06121F'
+  TAGLINE_AR: تعلّم HTML/CSS/JS — ٣٩ درسًا للأطفال من ٦ إلى ١٤ عامًا، بدون إنترنت
+  TAGLINE_EN: Learn HTML/CSS/JS — 39 lessons for kids 6-14, offline
+  TAGLINE_FR: Apprendre HTML/CSS/JS — 39 leçons pour enfants 6-14, hors ligne
+  ABOUT_AR: منصة تعليمية لبرمجة الأطفال (٦-١٤ سنة) في ملف واحد. ٣٩ درسًا عبر HTML و CSS و JavaScript ومحاكاة فيزيائية. محرر
+    برمجة مباشر + معاينة فورية + ألعاب. صفر اعتماديات، يعمل بدون إنترنت.
+  ABOUT_EN: Single-file educational coding platform for kids 6-14. 39 lessons across HTML, CSS, JavaScript, and physics simulations.
+    Live code editor + instant preview + gamification. Zero dependencies, works offline.
+  ABOUT_FR: Plateforme éducative monofichier pour enfants 6-14. 39 leçons HTML/CSS/JavaScript et simulations physiques. Éditeur
+    en direct + aperçu instantané + gamification. Zéro dépendance, fonctionne hors ligne.
+  SHORT_DESC_AR: تعلّم HTML/CSS/JS — ٣٩ درسًا للأطفال من ٦ إلى ١٤ عامًا، بدون إنترنت
+  SHORT_DESC_EN: Learn HTML/CSS/JS — 39 lessons for kids 6-14, offline
+  SHORT_DESC_FR: Apprendre HTML/CSS/JS — 39 leçons pour enfants 6-14, hors ligne
+  FULL_DESC_AR: '🚀 كود كيدز
+
+
+    منصة تعليمية لبرمجة الأطفال (٦-١٤ سنة) في ملف واحد. ٣٩ درسًا عبر HTML و CSS و JavaScript ومحاكاة فيزيائية. محرر برمجة
+    مباشر + معاينة فورية + ألعاب. صفر اعتماديات، يعمل بدون إنترنت.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🚀 CodeKids
+
+
+    Single-file educational coding platform for kids 6-14. 39 lessons across HTML, CSS, JavaScript, and physics simulations.
+    Live code editor + instant preview + gamification. Zero dependencies, works offline.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🚀 CodeKids
+
+
+    Plateforme éducative monofichier pour enfants 6-14. 39 leçons HTML/CSS/JavaScript et simulations physiques. Éditeur en
+    direct + aperçu instantané + gamification. Zéro dépendance, fonctionne hors ligne.
+
+
+    — De workshop-diy.org'
+- slug: 3d-lab
+  category: Education
+  APP_NAME: 3D Lab
+  TITLE_AR: مختبر ثلاثي الأبعاد
+  TITLE_EN: 3D Lab
+  TITLE_FR: Labo 3D
+  BOOK_TITLE_AR: مختبر ثلاثي الأبعاد
+  BOOK_TITLE_EN: 3D Lab
+  BOOK_TITLE_FR: Labo 3D
+  EMOJI: 🧊
+  KOUTOUB_DIR: app-tier-s-3d-lab
+  BRAND_PRIMARY: '#2C5282'
+  BRAND_PRIMARY_DARK: '#0D2A50'
+  BRAND_ACCENT: '#FBA94B'
+  BRAND_GRADIENT_MID: '#1E3F66'
+  BG_DARK: '#06111E'
+  TAGLINE_AR: مصمم ثلاثي الأبعاد للأطفال — Three.js وإلكترونيات وألعاب
+  TAGLINE_EN: Kid 3D modeler — Three.js, electronics, gamified
+  TAGLINE_FR: Modeleur 3D pour enfants — Three.js, électronique, ludique
+  ABOUT_AR: ملعب تصميم ثلاثي الأبعاد في ملف واحد للأطفال (٧-١٤ سنة). ٦ أشكال أولية، استيراد SVG/DXF، مكونات إلكترونية تفاعلية،
+    توصيل الدوائر، تعلّم بالألعاب.
+  ABOUT_EN: Single-file 3D modeling playground for kids 7-14. 6 primitive shapes, SVG/DXF import, interactive electronics
+    components, circuit wiring, gamified learning. Combines TinkerCAD-style creativity with video-game progression.
+  ABOUT_FR: Atelier de modélisation 3D monofichier pour enfants 7-14. 6 formes, import SVG/DXF, composants électroniques interactifs,
+    câblage de circuits, apprentissage ludique. Mêle créativité TinkerCAD et progression de jeu vidéo.
+  SHORT_DESC_AR: مصمم ثلاثي الأبعاد للأطفال — Three.js وإلكترونيات وألعاب
+  SHORT_DESC_EN: Kid 3D modeler — Three.js, electronics, gamified
+  SHORT_DESC_FR: Modeleur 3D pour enfants — Three.js, électronique, ludique
+  FULL_DESC_AR: '🧊 مختبر ثلاثي الأبعاد
+
+
+    ملعب تصميم ثلاثي الأبعاد في ملف واحد للأطفال (٧-١٤ سنة). ٦ أشكال أولية، استيراد SVG/DXF، مكونات إلكترونية تفاعلية، توصيل
+    الدوائر، تعلّم بالألعاب.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🧊 3D Lab
+
+
+    Single-file 3D modeling playground for kids 7-14. 6 primitive shapes, SVG/DXF import, interactive electronics components,
+    circuit wiring, gamified learning. Combines TinkerCAD-style creativity with video-game progression.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🧊 Labo 3D
+
+
+    Atelier de modélisation 3D monofichier pour enfants 7-14. 6 formes, import SVG/DXF, composants électroniques interactifs,
+    câblage de circuits, apprentissage ludique. Mêle créativité TinkerCAD et progression de jeu vidéo.
+
+
+    — De workshop-diy.org'
+  APPID_SEGMENT: app3dlab
+  APP_ID: org.workshopdiy.app3dlab
+- slug: circuit-lab
+  category: Education
+  APP_NAME: Circuit Lab
+  TITLE_AR: مختبر الدوائر
+  TITLE_EN: Circuit Lab
+  TITLE_FR: Labo Circuits
+  BOOK_TITLE_AR: مختبر الدوائر
+  BOOK_TITLE_EN: Circuit Lab
+  BOOK_TITLE_FR: Labo Circuits
+  EMOJI: 🔌
+  KOUTOUB_DIR: app-tier-s-circuit-lab
+  BRAND_PRIMARY: '#1F3D32'
+  BRAND_PRIMARY_DARK: '#0B1F18'
+  BRAND_ACCENT: '#F6C453'
+  BRAND_GRADIENT_MID: '#173024'
+  BG_DARK: '#06120D'
+  TAGLINE_AR: بناء ومحاكاة الدوائر — للأطفال، لوحة تجارب وثلاثي الأبعاد
+  TAGLINE_EN: Build & simulate circuits — kid-friendly, breadboard + 3D
+  TAGLINE_FR: Construire & simuler des circuits — pour enfants, breadboard + 3D
+  ABOUT_AR: منشئ دوائر إلكترونية مجاني للأطفال (٦-١٤ سنة). اسحب البطاريات والـ LED والمقاومات والحساسات على لوحة تجارب واقعية
+    وشاهد دائرتك تنبض بالحياة. ثلاث عروض (لوحة/مخطط/PCB) إضافة إلى وضع ثلاثي الأبعاد.
+  ABOUT_EN: Free, web-based circuit builder for kids 6-14. Drag batteries, LEDs, resistors, sensors onto a realistic breadboard,
+    wire them up, and watch them come alive. Three views (breadboard/schematic/PCB) plus 3D mode. Trilingual EN/FR/AR with
+    RTL support.
+  ABOUT_FR: Constructeur de circuits gratuit pour enfants 6-14. Glissez piles, LEDs, résistances, capteurs sur une plaque
+    d'essai réaliste et regardez votre circuit s'animer. Trois vues (breadboard/schéma/PCB) plus mode 3D. Trilingue EN/FR/AR
+    avec support RTL.
+  SHORT_DESC_AR: بناء ومحاكاة الدوائر — للأطفال، لوحة تجارب وثلاثي الأبعاد
+  SHORT_DESC_EN: Build & simulate circuits — kid-friendly, breadboard + 3D
+  SHORT_DESC_FR: Construire & simuler des circuits — pour enfants, breadboard + 3D
+  FULL_DESC_AR: '🔌 مختبر الدوائر
+
+
+    منشئ دوائر إلكترونية مجاني للأطفال (٦-١٤ سنة). اسحب البطاريات والـ LED والمقاومات والحساسات على لوحة تجارب واقعية وشاهد
+    دائرتك تنبض بالحياة. ثلاث عروض (لوحة/مخطط/PCB) إضافة إلى وضع ثلاثي الأبعاد.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🔌 Circuit Lab
+
+
+    Free, web-based circuit builder for kids 6-14. Drag batteries, LEDs, resistors, sensors onto a realistic breadboard, wire
+    them up, and watch them come alive. Three views (breadboard/schematic/PCB) plus 3D mode. Trilingual EN/FR/AR with RTL
+    support.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🔌 Labo Circuits
+
+
+    Constructeur de circuits gratuit pour enfants 6-14. Glissez piles, LEDs, résistances, capteurs sur une plaque d''essai
+    réaliste et regardez votre circuit s''animer. Trois vues (breadboard/schéma/PCB) plus mode 3D. Trilingue EN/FR/AR avec
+    support RTL.
+
+
+    — De workshop-diy.org'
+- slug: arabic-speaker
+  category: Education
+  APP_NAME: Arabic Speaker
+  TITLE_AR: متحدث العربية
+  TITLE_EN: Arabic Speaker
+  TITLE_FR: Locuteur Arabe
+  BOOK_TITLE_AR: متحدث العربية
+  BOOK_TITLE_EN: Arabic Speaker
+  BOOK_TITLE_FR: Locuteur Arabe
+  EMOJI: 🗣️
+  KOUTOUB_DIR: app-tier-s-arabic-speaker
+  BRAND_PRIMARY: '#6B2C39'
+  BRAND_PRIMARY_DARK: '#341520'
+  BRAND_ACCENT: '#E5B25E'
+  BRAND_GRADIENT_MID: '#4D1F2A'
+  BG_DARK: '#180810'
+  TAGLINE_AR: النطق العربي + التعرف على الكلام — متعدد اللهجات
+  TAGLINE_EN: Arabic TTS + STT — multi-dialect, offline TTS
+  TAGLINE_FR: Synthèse + reconnaissance vocale arabe — multi-dialecte
+  ABOUT_AR: تطبيق نطق عربي كامل (نص إلى كلام وكلام إلى نص) يعمل في المتصفح فقط. لهجات متعددة (سعودي، مصري، إماراتي، مغربي...)،
+    اختيار الصوت، ضبط السرعة والنبرة والحجم. بدون خادم وبدون تتبع.
+  ABOUT_EN: Fully client-side Arabic Text-to-Speech and Speech-to-Text app. Multiple dialects (ar-SA, ar-EG, ar-AE, ar-MA,
+    etc.), voice selection, adjustable rate/pitch/volume. No backend, no tracking. TTS works offline.
+  ABOUT_FR: Application de synthèse et reconnaissance vocale arabe entièrement côté client. Plusieurs dialectes (ar-SA, ar-EG,
+    ar-AE, ar-MA, etc.), choix de voix, débit/hauteur/volume réglables. Pas de backend, pas de suivi.
+  SHORT_DESC_AR: النطق العربي + التعرف على الكلام — متعدد اللهجات
+  SHORT_DESC_EN: Arabic TTS + STT — multi-dialect, offline TTS
+  SHORT_DESC_FR: Synthèse + reconnaissance vocale arabe — multi-dialecte
+  FULL_DESC_AR: '🗣️ متحدث العربية
+
+
+    تطبيق نطق عربي كامل (نص إلى كلام وكلام إلى نص) يعمل في المتصفح فقط. لهجات متعددة (سعودي، مصري، إماراتي، مغربي...)، اختيار
+    الصوت، ضبط السرعة والنبرة والحجم. بدون خادم وبدون تتبع.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🗣️ Arabic Speaker
+
+
+    Fully client-side Arabic Text-to-Speech and Speech-to-Text app. Multiple dialects (ar-SA, ar-EG, ar-AE, ar-MA, etc.),
+    voice selection, adjustable rate/pitch/volume. No backend, no tracking. TTS works offline.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🗣️ Locuteur Arabe
+
+
+    Application de synthèse et reconnaissance vocale arabe entièrement côté client. Plusieurs dialectes (ar-SA, ar-EG, ar-AE,
+    ar-MA, etc.), choix de voix, débit/hauteur/volume réglables. Pas de backend, pas de suivi.
+
+
+    — De workshop-diy.org'
+- slug: PlanPilot
+  category: Productivity
+  APP_NAME: PlanPilot
+  TITLE_AR: خطّاط
+  TITLE_EN: PlanPilot
+  TITLE_FR: PlanPilot
+  BOOK_TITLE_AR: خطّاط
+  BOOK_TITLE_EN: PlanPilot
+  BOOK_TITLE_FR: PlanPilot
+  EMOJI: 📅
+  KOUTOUB_DIR: app-tier-s-PlanPilot
+  BRAND_PRIMARY: '#4A2D8C'
+  BRAND_PRIMARY_DARK: '#22154A'
+  BRAND_ACCENT: '#FBC04A'
+  BRAND_GRADIENT_MID: '#33205F'
+  BG_DARK: '#0B071A'
+  TAGLINE_AR: مدير المهام محلي مع جدولة تلقائية
+  TAGLINE_EN: Local-first task manager with auto-scheduling
+  TAGLINE_FR: Gestionnaire de tâches local avec planification automatique
+  ABOUT_AR: مدير المهام مع جدولة تلقائية مصمم لطلاب الطب. مستويات أولوية P1-P4، تقسيم المهام، التبعيات، إضافة سريعة بلغة طبيعية.
+    محلي أولاً، بدون حساب، بدون سحابة.
+  ABOUT_EN: Task manager with automatic scheduling, designed for med students. Priority levels P1-P4, task splitting, dependencies,
+    natural language quick-add. Local-first, no account, no cloud.
+  ABOUT_FR: Gestionnaire de tâches avec planification automatique pour étudiants en médecine. Priorités P1-P4, fractionnement
+    des tâches, dépendances, ajout rapide en langage naturel. Local-first, pas de compte, pas de cloud.
+  SHORT_DESC_AR: مدير المهام محلي مع جدولة تلقائية
+  SHORT_DESC_EN: Local-first task manager with auto-scheduling
+  SHORT_DESC_FR: Gestionnaire de tâches local avec planification automatique
+  FULL_DESC_AR: '📅 خطّاط
+
+
+    مدير المهام مع جدولة تلقائية مصمم لطلاب الطب. مستويات أولوية P1-P4، تقسيم المهام، التبعيات، إضافة سريعة بلغة طبيعية. محلي
+    أولاً، بدون حساب، بدون سحابة.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '📅 PlanPilot
+
+
+    Task manager with automatic scheduling, designed for med students. Priority levels P1-P4, task splitting, dependencies,
+    natural language quick-add. Local-first, no account, no cloud.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '📅 PlanPilot
+
+
+    Gestionnaire de tâches avec planification automatique pour étudiants en médecine. Priorités P1-P4, fractionnement des
+    tâches, dépendances, ajout rapide en langage naturel. Local-first, pas de compte, pas de cloud.
+
+
+    — De workshop-diy.org'
+- slug: freezap
+  category: Tools
+  APP_NAME: FreeZap
+  TITLE_AR: فريزاب
+  TITLE_EN: FreeZap
+  TITLE_FR: FreeZap
+  BOOK_TITLE_AR: فريزاب
+  BOOK_TITLE_EN: FreeZap
+  BOOK_TITLE_FR: FreeZap
+  EMOJI: 📺
+  KOUTOUB_DIR: app-tier-s-freezap
+  BRAND_PRIMARY: '#1F4068'
+  BRAND_PRIMARY_DARK: '#0C1F36'
+  BRAND_ACCENT: '#F3853A'
+  BRAND_GRADIENT_MID: '#163454'
+  BG_DARK: '#050C16'
+  TAGLINE_AR: جهاز التحكم عن بُعد لـ Freebox Player — من الهاتف
+  TAGLINE_EN: Freebox Player remote — phone-friendly, no install
+  TAGLINE_FR: Télécommande Freebox Player — depuis le téléphone
+  ABOUT_AR: جهاز تحكم ويب لـ Freebox Player. تحكّم في Freebox Revolution من أي هاتف أو جهاز لوحي أو حاسوب على نفس الشبكة.
+    بلا متجر، بلا تثبيت، بلا حساب.
+  ABOUT_EN: A web-based remote for the Freebox Player. Pilot your Freebox Revolution from any phone, tablet, or laptop on
+    the same WiFi. No app store, no install, no account. Trilingual FR/EN/AR, 8 themes, keyboard shortcuts.
+  ABOUT_FR: Une télécommande web pour le Freebox Player. Pilotez votre Freebox Revolution depuis n'importe quel téléphone,
+    tablette ou ordinateur du même WiFi. Pas d'app store, pas d'installation, pas de compte.
+  SHORT_DESC_AR: جهاز التحكم عن بُعد لـ Freebox Player — من الهاتف
+  SHORT_DESC_EN: Freebox Player remote — phone-friendly, no install
+  SHORT_DESC_FR: Télécommande Freebox Player — depuis le téléphone
+  FULL_DESC_AR: '📺 فريزاب
+
+
+    جهاز تحكم ويب لـ Freebox Player. تحكّم في Freebox Revolution من أي هاتف أو جهاز لوحي أو حاسوب على نفس الشبكة. بلا متجر،
+    بلا تثبيت، بلا حساب.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '📺 FreeZap
+
+
+    A web-based remote for the Freebox Player. Pilot your Freebox Revolution from any phone, tablet, or laptop on the same
+    WiFi. No app store, no install, no account. Trilingual FR/EN/AR, 8 themes, keyboard shortcuts.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '📺 FreeZap
+
+
+    Une télécommande web pour le Freebox Player. Pilotez votre Freebox Revolution depuis n''importe quel téléphone, tablette
+    ou ordinateur du même WiFi. Pas d''app store, pas d''installation, pas de compte.
+
+
+    — De workshop-diy.org'
+- slug: eid
+  category: Lifestyle
+  APP_NAME: Eid News Network
+  TITLE_AR: عيد
+  TITLE_EN: Eid News Network
+  TITLE_FR: Réseau News Eid
+  BOOK_TITLE_AR: عيد
+  BOOK_TITLE_EN: Eid News Network
+  BOOK_TITLE_FR: Réseau News Eid
+  EMOJI: 🌙
+  KOUTOUB_DIR: app-tier-s-eid
+  BRAND_PRIMARY: '#0F4D2A'
+  BRAND_PRIMARY_DARK: '#06281A'
+  BRAND_ACCENT: '#FFD700'
+  BRAND_GRADIENT_MID: '#0A3E22'
+  BG_DARK: '#03130C'
+  TAGLINE_AR: تهنئة عيد مبارك + عدّاد — فن إسلامي مع دراما هاكرز
+  TAGLINE_EN: Eid Mubarak greeting + countdown — Islamic art meets hacker drama
+  TAGLINE_FR: Vœux Aïd Moubarak + compte à rebours — art islamique et drame hacker
+  ABOUT_AR: بطاقة تهنئة عيد مبارك بصفحة واحدة بأسلوب نشرة أخبار تلفزيونية مباشرة — خط إسلامي يلتقي دراما القرصنة. التاريخ
+    الهجري، عدّاد العيد، شريط أخبار، تسلسل طرفية، زر مشاركة.
+  ABOUT_EN: A single-page Eid Mubarak greeting card styled as a live TV news broadcast — Islamic calligraphy meets hacker
+    drama. Hijri date, Eid countdown, scrolling ticker, terminal sequence, share button. Personalize with `?to=Name`.
+  ABOUT_FR: Carte de vœux Aïd Moubarak monopage stylisée comme un journal TV en direct — calligraphie islamique et drame hacker.
+    Date hijri, compte à rebours de l'Aïd, ticker, séquence terminal, bouton de partage.
+  SHORT_DESC_AR: تهنئة عيد مبارك + عدّاد — فن إسلامي مع دراما هاكرز
+  SHORT_DESC_EN: Eid Mubarak greeting + countdown — Islamic art meets hacker drama
+  SHORT_DESC_FR: Vœux Aïd Moubarak + compte à rebours — art islamique et drame hacker
+  FULL_DESC_AR: '🌙 عيد
+
+
+    بطاقة تهنئة عيد مبارك بصفحة واحدة بأسلوب نشرة أخبار تلفزيونية مباشرة — خط إسلامي يلتقي دراما القرصنة. التاريخ الهجري،
+    عدّاد العيد، شريط أخبار، تسلسل طرفية، زر مشاركة.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🌙 Eid News Network
+
+
+    A single-page Eid Mubarak greeting card styled as a live TV news broadcast — Islamic calligraphy meets hacker drama. Hijri
+    date, Eid countdown, scrolling ticker, terminal sequence, share button. Personalize with `?to=Name`.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🌙 Réseau News Eid
+
+
+    Carte de vœux Aïd Moubarak monopage stylisée comme un journal TV en direct — calligraphie islamique et drame hacker. Date
+    hijri, compte à rebours de l''Aïd, ticker, séquence terminal, bouton de partage.
+
+
+    — De workshop-diy.org'
+- slug: save-our-planet
+  category: Education
+  APP_NAME: Save Our Planet
+  TITLE_AR: أنقذوا كوكبنا
+  TITLE_EN: Save Our Planet
+  TITLE_FR: Sauvez Notre Planète
+  BOOK_TITLE_AR: أنقذوا كوكبنا
+  BOOK_TITLE_EN: Save Our Planet
+  BOOK_TITLE_FR: Sauvez Notre Planète
+  EMOJI: 🌍
+  KOUTOUB_DIR: app-tier-s-save-our-planet
+  BRAND_PRIMARY: '#1F6D4D'
+  BRAND_PRIMARY_DARK: '#0C3725'
+  BRAND_ACCENT: '#3DBEF7'
+  BRAND_GRADIENT_MID: '#175438'
+  BG_DARK: '#04140D'
+  TAGLINE_AR: تطبيق ثلاثي اللغة — روبوتات تنقذ الأرض في ٢٠٥٠
+  TAGLINE_EN: Trilingual app — robots saving Earth in 2050, for kids 6-12
+  TAGLINE_FR: Application trilingue — robots sauvant la Terre en 2050
+  ABOUT_AR: تطبيق تفاعلي ثلاثي اللغة للأطفال (٦-١٢ سنة). ١٣ منطقة بيئية، ٣٩ روبوت متخصص، منشئ بطاقات روبوت، قوانين أسيموف
+    الثلاثة للروبوتات.
+  ABOUT_EN: Interactive trilingual app for kids 6-12. 13 environmental zones, 39 specialized robot agents, build-your-robot
+    card creator, Asimov's 3 Laws of Robotics. Inspired by Isaac Asimov.
+  ABOUT_FR: Application interactive trilingue pour enfants 6-12. 13 zones environnementales, 39 robots spécialisés, créateur
+    de carte robot, les 3 lois de la robotique d'Asimov.
+  SHORT_DESC_AR: تطبيق ثلاثي اللغة — روبوتات تنقذ الأرض في ٢٠٥٠
+  SHORT_DESC_EN: Trilingual app — robots saving Earth in 2050, for kids 6-12
+  SHORT_DESC_FR: Application trilingue — robots sauvant la Terre en 2050
+  FULL_DESC_AR: '🌍 أنقذوا كوكبنا
+
+
+    تطبيق تفاعلي ثلاثي اللغة للأطفال (٦-١٢ سنة). ١٣ منطقة بيئية، ٣٩ روبوت متخصص، منشئ بطاقات روبوت، قوانين أسيموف الثلاثة
+    للروبوتات.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🌍 Save Our Planet
+
+
+    Interactive trilingual app for kids 6-12. 13 environmental zones, 39 specialized robot agents, build-your-robot card creator,
+    Asimov''s 3 Laws of Robotics. Inspired by Isaac Asimov.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🌍 Sauvez Notre Planète
+
+
+    Application interactive trilingue pour enfants 6-12. 13 zones environnementales, 39 robots spécialisés, créateur de carte
+    robot, les 3 lois de la robotique d''Asimov.
+
+
+    — De workshop-diy.org'
+- slug: builders-of-light
+  category: Education
+  APP_NAME: Builders of Light
+  TITLE_AR: بناة النور
+  TITLE_EN: Builders of Light
+  TITLE_FR: Bâtisseurs de Lumière
+  BOOK_TITLE_AR: بناة النور
+  BOOK_TITLE_EN: Builders of Light
+  BOOK_TITLE_FR: Bâtisseurs de Lumière
+  EMOJI: 🌙
+  KOUTOUB_DIR: app-tier-s-builders-of-light
+  BRAND_PRIMARY: '#5C3D8B'
+  BRAND_PRIMARY_DARK: '#2A1B47'
+  BRAND_ACCENT: '#F4C842'
+  BRAND_GRADIENT_MID: '#3F2A66'
+  BG_DARK: '#0F0820'
+  TAGLINE_AR: رحلة في العصر الذهبي الإسلامي للأطفال (٧-١٤) — ١٣٩ قسمًا
+  TAGLINE_EN: Islamic Golden Age journey for kids 7-14 — 139 sections
+  TAGLINE_FR: Voyage à l'Âge d'Or islamique pour enfants 7-14
+  ABOUT_AR: تطبيق ويب قائم بذاته يعلّم الأطفال (٧-١٤) عن العصر الذهبي الإسلامي (القرن ٨-١٤م) عبر ١٣٩ قسمًا تفاعليًا — ألعاب،
+    اختبارات، قصص، أدوات فنية، أنشطة لغوية.
+  ABOUT_EN: Self-contained interactive web app teaching kids 7-14 about the Islamic Golden Age (8th-14th c. CE) through 139
+    interactive sections — games, quizzes, stories, art tools, language activities. Trilingual.
+  ABOUT_FR: Application web autonome enseignant aux enfants 7-14 l'Âge d'Or islamique (VIIIe-XIVe s.) à travers 139 sections
+    interactives — jeux, quiz, histoires, outils d'art, activités linguistiques.
+  SHORT_DESC_AR: رحلة في العصر الذهبي الإسلامي للأطفال (٧-١٤) — ١٣٩ قسمًا
+  SHORT_DESC_EN: Islamic Golden Age journey for kids 7-14 — 139 sections
+  SHORT_DESC_FR: Voyage à l'Âge d'Or islamique pour enfants 7-14
+  FULL_DESC_AR: '🌙 بناة النور
+
+
+    تطبيق ويب قائم بذاته يعلّم الأطفال (٧-١٤) عن العصر الذهبي الإسلامي (القرن ٨-١٤م) عبر ١٣٩ قسمًا تفاعليًا — ألعاب، اختبارات،
+    قصص، أدوات فنية، أنشطة لغوية.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🌙 Builders of Light
+
+
+    Self-contained interactive web app teaching kids 7-14 about the Islamic Golden Age (8th-14th c. CE) through 139 interactive
+    sections — games, quizzes, stories, art tools, language activities. Trilingual.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🌙 Bâtisseurs de Lumière
+
+
+    Application web autonome enseignant aux enfants 7-14 l''Âge d''Or islamique (VIIIe-XIVe s.) à travers 139 sections interactives
+    — jeux, quiz, histoires, outils d''art, activités linguistiques.
+
+
+    — De workshop-diy.org'
+- slug: golden-age
+  category: Education
+  APP_NAME: What Muslims Gave the World
+  TITLE_AR: العصر الذهبي
+  TITLE_EN: What Muslims Gave the World
+  TITLE_FR: Ce que les Musulmans ont Apporté
+  BOOK_TITLE_AR: العصر الذهبي
+  BOOK_TITLE_EN: What Muslims Gave the World
+  BOOK_TITLE_FR: Ce que les Musulmans ont Apporté
+  EMOJI: 🌟
+  KOUTOUB_DIR: app-tier-s-golden-age
+  BRAND_PRIMARY: '#8B6914'
+  BRAND_PRIMARY_DARK: '#3F300A'
+  BRAND_ACCENT: '#F4C842'
+  BRAND_GRADIENT_MID: '#5C4710'
+  BG_DARK: '#1A1304'
+  TAGLINE_AR: مساهمات العصر الذهبي — تطبيق شقيق لبناة النور
+  TAGLINE_EN: Islamic Golden Age contributions — sister to Builders of Light
+  TAGLINE_FR: Contributions de l'Âge d'Or — sœur de Builders of Light
+  ABOUT_AR: تطبيق ويب تفاعلي ثلاثي اللغة يعلّم إنجازات العصر الذهبي الإسلامي. ١٣٩ قسمًا تفاعليًا، أكثر من ٤٣٤ وظيفة، يعمل
+    في ملف HTML واحد. تطبيق شقيق لبناة النور.
+  ABOUT_EN: Trilingual interactive web app teaching the achievements of the Islamic Golden Age. 139 interactive sections,
+    434+ functions, runs entirely in a single HTML file. Sister to Builders of Light, focused on global contributions.
+  ABOUT_FR: Application web interactive trilingue enseignant les réalisations de l'Âge d'Or islamique. 139 sections interactives,
+    434+ fonctions, dans un seul fichier HTML. Sœur de Builders of Light.
+  SHORT_DESC_AR: مساهمات العصر الذهبي — تطبيق شقيق لبناة النور
+  SHORT_DESC_EN: Islamic Golden Age contributions — sister to Builders of Light
+  SHORT_DESC_FR: Contributions de l'Âge d'Or — sœur de Builders of Light
+  FULL_DESC_AR: '🌟 العصر الذهبي
+
+
+    تطبيق ويب تفاعلي ثلاثي اللغة يعلّم إنجازات العصر الذهبي الإسلامي. ١٣٩ قسمًا تفاعليًا، أكثر من ٤٣٤ وظيفة، يعمل في ملف HTML
+    واحد. تطبيق شقيق لبناة النور.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🌟 What Muslims Gave the World
+
+
+    Trilingual interactive web app teaching the achievements of the Islamic Golden Age. 139 interactive sections, 434+ functions,
+    runs entirely in a single HTML file. Sister to Builders of Light, focused on global contributions.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🌟 Ce que les Musulmans ont Apporté
+
+
+    Application web interactive trilingue enseignant les réalisations de l''Âge d''Or islamique. 139 sections interactives,
+    434+ fonctions, dans un seul fichier HTML. Sœur de Builders of Light.
+
+
+    — De workshop-diy.org'
+- slug: luminaries-of-islam
+  category: Education
+  APP_NAME: Luminaries of Islam
+  TITLE_AR: أنوار الإسلام
+  TITLE_EN: Luminaries of Islam
+  TITLE_FR: Lumières de l'Islam
+  BOOK_TITLE_AR: أنوار الإسلام
+  BOOK_TITLE_EN: Luminaries of Islam
+  BOOK_TITLE_FR: Lumières de l'Islam
+  EMOJI: ✨
+  KOUTOUB_DIR: app-tier-s-luminaries-of-islam
+  BRAND_PRIMARY: '#0A6E6E'
+  BRAND_PRIMARY_DARK: '#03333A'
+  BRAND_ACCENT: '#C9A84C'
+  BRAND_GRADIENT_MID: '#085255'
+  BG_DARK: '#020F12'
+  TAGLINE_AR: ١٢ عالمًا مسلمًا من العصر الذهبي — للأطفال
+  TAGLINE_EN: 12 Muslim scientists of the Golden Age — for kids
+  TAGLINE_FR: 12 scientifiques musulmans de l'Âge d'Or — pour enfants
+  ABOUT_AR: تطبيق ويب تفاعلي ثلاثي اللغة يقدّم ١٢ عالمًا مسلمًا رائدًا من العصر الذهبي الإسلامي. ٣ مستويات معرفية، بحث صوتي
+    + قراءة جهرية، اختبارات ممتعة بشارات.
+  ABOUT_EN: Trilingual interactive web app introducing 12 groundbreaking Muslim scientists of the Islamic Golden Age. 3 knowledge
+    levels (Newb/Explorer/Developer), voice search + read-aloud, gamified quizzes with badges. Privacy-first, offline-ready.
+  ABOUT_FR: Application web interactive trilingue présentant 12 scientifiques musulmans révolutionnaires de l'Âge d'Or islamique.
+    3 niveaux (Newb/Explorer/Developer), recherche vocale, quiz ludiques.
+  SHORT_DESC_AR: ١٢ عالمًا مسلمًا من العصر الذهبي — للأطفال
+  SHORT_DESC_EN: 12 Muslim scientists of the Golden Age — for kids
+  SHORT_DESC_FR: 12 scientifiques musulmans de l'Âge d'Or — pour enfants
+  FULL_DESC_AR: '✨ أنوار الإسلام
+
+
+    تطبيق ويب تفاعلي ثلاثي اللغة يقدّم ١٢ عالمًا مسلمًا رائدًا من العصر الذهبي الإسلامي. ٣ مستويات معرفية، بحث صوتي + قراءة
+    جهرية، اختبارات ممتعة بشارات.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '✨ Luminaries of Islam
+
+
+    Trilingual interactive web app introducing 12 groundbreaking Muslim scientists of the Islamic Golden Age. 3 knowledge
+    levels (Newb/Explorer/Developer), voice search + read-aloud, gamified quizzes with badges. Privacy-first, offline-ready.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '✨ Lumières de l''Islam
+
+
+    Application web interactive trilingue présentant 12 scientifiques musulmans révolutionnaires de l''Âge d''Or islamique.
+    3 niveaux (Newb/Explorer/Developer), recherche vocale, quiz ludiques.
+
+
+    — De workshop-diy.org'
+- slug: bonjour
+  category: Education
+  APP_NAME: Bonjour Kids Lab
+  TITLE_AR: بونجور
+  TITLE_EN: Bonjour Kids Lab
+  TITLE_FR: Bonjour Kids Lab
+  BOOK_TITLE_AR: بونجور
+  BOOK_TITLE_EN: Bonjour Kids Lab
+  BOOK_TITLE_FR: Bonjour Kids Lab
+  EMOJI: 🌐
+  KOUTOUB_DIR: app-tier-s-bonjour
+  BRAND_PRIMARY: '#0E5267'
+  BRAND_PRIMARY_DARK: '#031F2A'
+  BRAND_ACCENT: '#F39237'
+  BRAND_GRADIENT_MID: '#0B3E50'
+  BG_DARK: '#020D11'
+  TAGLINE_AR: تعلّم Bonjour و mDNS و DNS-SD — للأطفال (١٠-١٦)
+  TAGLINE_EN: Learn Bonjour/mDNS/DNS-SD — for kids 10-16
+  TAGLINE_FR: Apprendre Bonjour/mDNS/DNS-SD — pour enfants 10-16
+  ABOUT_AR: يعلّم الأطفال (١٠-١٦) كيف يعمل Bonjour و mDNS و DNS-SD — البروتوكولات التي تسمح للأجهزة باكتشاف بعضها على الشبكات
+    المحلية دون إعداد.
+  ABOUT_EN: Teaches kids 10-16 how Bonjour, mDNS, and DNS-SD work — the protocols that let devices discover each other on
+    local networks with zero config. Animated SVG network canvas, 3 learning levels, interactive quizzes.
+  ABOUT_FR: Enseigne aux enfants 10-16 le fonctionnement de Bonjour, mDNS et DNS-SD — les protocoles qui permettent aux appareils
+    de se découvrir sur un réseau local sans configuration.
+  SHORT_DESC_AR: تعلّم Bonjour و mDNS و DNS-SD — للأطفال (١٠-١٦)
+  SHORT_DESC_EN: Learn Bonjour/mDNS/DNS-SD — for kids 10-16
+  SHORT_DESC_FR: Apprendre Bonjour/mDNS/DNS-SD — pour enfants 10-16
+  FULL_DESC_AR: '🌐 بونجور
+
+
+    يعلّم الأطفال (١٠-١٦) كيف يعمل Bonjour و mDNS و DNS-SD — البروتوكولات التي تسمح للأجهزة باكتشاف بعضها على الشبكات المحلية
+    دون إعداد.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🌐 Bonjour Kids Lab
+
+
+    Teaches kids 10-16 how Bonjour, mDNS, and DNS-SD work — the protocols that let devices discover each other on local networks
+    with zero config. Animated SVG network canvas, 3 learning levels, interactive quizzes.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🌐 Bonjour Kids Lab
+
+
+    Enseigne aux enfants 10-16 le fonctionnement de Bonjour, mDNS et DNS-SD — les protocoles qui permettent aux appareils
+    de se découvrir sur un réseau local sans configuration.
+
+
+    — De workshop-diy.org'
+- slug: emojis
+  category: Education
+  APP_NAME: EmojiFlow
+  TITLE_AR: إيموجي فلو
+  TITLE_EN: EmojiFlow
+  TITLE_FR: EmojiFlow
+  BOOK_TITLE_AR: إيموجي فلو
+  BOOK_TITLE_EN: EmojiFlow
+  BOOK_TITLE_FR: EmojiFlow
+  EMOJI: 🧩
+  KOUTOUB_DIR: app-tier-s-emojis
+  BRAND_PRIMARY: '#7C3AED'
+  BRAND_PRIMARY_DARK: '#3B1B72'
+  BRAND_ACCENT: '#FFB347'
+  BRAND_GRADIENT_MID: '#552899'
+  BG_DARK: '#100722'
+  TAGLINE_AR: برمجة بالإيموجي بالسحب والإفلات — يتعلّم الأطفال البرمجة والأمان
+  TAGLINE_EN: Drag-and-drop emoji programming — kids learn coding + cyber
+  TAGLINE_FR: Programmation par emojis — enfants apprennent code + cyber
+  ABOUT_AR: تطبيق تعليمي يتعلم فيه الأطفال البرمجة وأساسيات الأمن السيبراني عبر بناء تدفقات منطقية بالإيموجي. ٥ وحدات، ٣ مستويات.
+    محلي ١٠٠٪، بدون تتبع.
+  ABOUT_EN: Educational web app where kids learn programming and cybersecurity basics by building logic flows with emojis.
+    5 modules (Coding, IoT, Cyber, Challenges, Help), 3 levels (Newb/Explorer/Developer). 100% local, no tracking.
+  ABOUT_FR: Application éducative où les enfants apprennent la programmation et les bases de la cybersécurité en construisant
+    des flux logiques avec des emojis. 5 modules, 3 niveaux. 100% local, sans suivi.
+  SHORT_DESC_AR: برمجة بالإيموجي بالسحب والإفلات — يتعلّم الأطفال البرمجة والأمان
+  SHORT_DESC_EN: Drag-and-drop emoji programming — kids learn coding + cyber
+  SHORT_DESC_FR: Programmation par emojis — enfants apprennent code + cyber
+  FULL_DESC_AR: '🧩 إيموجي فلو
+
+
+    تطبيق تعليمي يتعلم فيه الأطفال البرمجة وأساسيات الأمن السيبراني عبر بناء تدفقات منطقية بالإيموجي. ٥ وحدات، ٣ مستويات.
+    محلي ١٠٠٪، بدون تتبع.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🧩 EmojiFlow
+
+
+    Educational web app where kids learn programming and cybersecurity basics by building logic flows with emojis. 5 modules
+    (Coding, IoT, Cyber, Challenges, Help), 3 levels (Newb/Explorer/Developer). 100% local, no tracking.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🧩 EmojiFlow
+
+
+    Application éducative où les enfants apprennent la programmation et les bases de la cybersécurité en construisant des
+    flux logiques avec des emojis. 5 modules, 3 niveaux. 100% local, sans suivi.
+
+
+    — De workshop-diy.org'
+- slug: bitmoji-lab
+  category: Education
+  APP_NAME: Bitmoji Lab
+  TITLE_AR: مختبر بيتموجي
+  TITLE_EN: Bitmoji Lab
+  TITLE_FR: Bitmoji Lab
+  BOOK_TITLE_AR: مختبر بيتموجي
+  BOOK_TITLE_EN: Bitmoji Lab
+  BOOK_TITLE_FR: Bitmoji Lab
+  EMOJI: 🎨
+  KOUTOUB_DIR: app-tier-s-bitmoji-lab
+  BRAND_PRIMARY: '#A4244A'
+  BRAND_PRIMARY_DARK: '#4F0F1F'
+  BRAND_ACCENT: '#F9A03F'
+  BRAND_GRADIENT_MID: '#761A36'
+  BG_DARK: '#1A050C'
+  TAGLINE_AR: فن LED من الإيموجي — لوّن وأرسل إلى micro:bit عبر البلوتوث
+  TAGLINE_EN: Emoji-to-LED-art — paint emojis, send to micro:bit via BLE
+  TAGLINE_FR: Emojis-en-art-LED — colorez et envoyez à un micro:bit BLE
+  ABOUT_AR: حوّل الإيموجي إلى فن LED على micro:bit. اختر من ١٠٠+ إيموجي، لوّن بألوان قوس قزح، أرسل لاسلكيًا إلى micro:bit،
+    شاهدها تتوهج على شاشة LED 8×8 أو 16×16.
+  ABOUT_EN: Turn emojis into glowing LED art on a micro:bit. Pick from 100+ emojis, paint with rainbow colors, send wirelessly
+    to your micro:bit, watch them glow on an 8×8 or 16×16 LED matrix. Save designs, watch animations and demos.
+  ABOUT_FR: Transformez les emojis en art LED sur un micro:bit. Choisissez parmi 100+ emojis, peignez en couleurs arc-en-ciel,
+    envoyez sans fil à votre micro:bit, regardez-les briller sur une matrice LED 8×8 ou 16×16.
+  SHORT_DESC_AR: فن LED من الإيموجي — لوّن وأرسل إلى micro:bit عبر البلوتوث
+  SHORT_DESC_EN: Emoji-to-LED-art — paint emojis, send to micro:bit via BLE
+  SHORT_DESC_FR: Emojis-en-art-LED — colorez et envoyez à un micro:bit BLE
+  FULL_DESC_AR: '🎨 مختبر بيتموجي
+
+
+    حوّل الإيموجي إلى فن LED على micro:bit. اختر من ١٠٠+ إيموجي، لوّن بألوان قوس قزح، أرسل لاسلكيًا إلى micro:bit، شاهدها
+    تتوهج على شاشة LED 8×8 أو 16×16.
+
+
+    — من workshop-diy.org'
+  FULL_DESC_EN: '🎨 Bitmoji Lab
+
+
+    Turn emojis into glowing LED art on a micro:bit. Pick from 100+ emojis, paint with rainbow colors, send wirelessly to
+    your micro:bit, watch them glow on an 8×8 or 16×16 LED matrix. Save designs, watch animations and demos.
+
+
+    — From workshop-diy.org'
+  FULL_DESC_FR: '🎨 Bitmoji Lab
+
+
+    Transformez les emojis en art LED sur un micro:bit. Choisissez parmi 100+ emojis, peignez en couleurs arc-en-ciel, envoyez
+    sans fil à votre micro:bit, regardez-les briller sur une matrice LED 8×8 ou 16×16.
+
+
+    — De workshop-diy.org'
+  needs_ble: true
