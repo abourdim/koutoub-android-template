@@ -81,8 +81,14 @@ if book.get('draft', False) and os.environ.get('ALLOW_DRAFT', '0') != '1':
     print(f"DRAFT", file=sys.stderr); sys.exit(2)
 # Derived fields
 book['SLUG'] = slug                                            # uppercase token
-book['APPID_SEGMENT'] = re.sub(r'[^a-z0-9]', '', slug.lower())
-book['APP_ID'] = f"org.workshopdiy.{book['APPID_SEGMENT']}"
+# Allow per-book override for APPID_SEGMENT and APP_ID (e.g. when slug starts with a digit,
+# Java package rules require a letter prefix — slugs like 3d-lab need 'app3dlab' not '3dlab').
+if 'APPID_SEGMENT' not in book:
+    book['APPID_SEGMENT'] = re.sub(r'[^a-z0-9]', '', slug.lower())
+    if book['APPID_SEGMENT'][:1].isdigit():
+        book['APPID_SEGMENT'] = 'app' + book['APPID_SEGMENT']
+if 'APP_ID' not in book:
+    book['APP_ID'] = f"org.workshopdiy.{book['APPID_SEGMENT']}"
 book['AVD_NAME'] = slug.replace('-', '_') + '_test'
 book['SOURCE_BOOK_REPO'] = f"abourdim/{slug}"
 book['DATE'] = datetime.date.today().isoformat()
