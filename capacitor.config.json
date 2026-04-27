@@ -4,8 +4,7 @@
   "webDir": "www",
   "android": {
     "allowMixedContent": false,
-    "captureInput": true,
-    "webContentsDebuggingEnabled": true
+    "captureInput": true
   },
   "plugins": {
     "SplashScreen": {
