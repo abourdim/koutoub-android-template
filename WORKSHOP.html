@@ -2635,8 +2635,119 @@ versionName "1.1"</pre>
       <tr><td><strong>TestFlight</strong></td><td>Apple's beta-testing track, parallel to Play Store's Internal Testing. Testers install a separate "TestFlight" app and access beta builds through it.</td></tr>
       <tr><td><strong>CocoaPods</strong></td><td>The Swift/Objective-C package manager (like npm for iOS native libraries). Capacitor plugins install via <code>pod install</code>.</td></tr>
       <tr><td><strong>Provisioning profile</strong></td><td>A file Apple issues that lists which devices your dev build can install on. Xcode generates these for you automatically once you sign in.</td></tr>
+      <tr><td><strong>BLE</strong></td><td>Bluetooth Low Energy — a power-frugal flavour of Bluetooth designed for sensors, beacons, and small devices like the micro:bit. Most modern phones speak it.</td></tr>
+      <tr><td><strong>GATT</strong></td><td>Generic Attribute Profile — the contract a BLE device exposes (services and characteristics). When you "pair" you're really subscribing to its GATT.</td></tr>
+      <tr><td><strong>Web Bluetooth</strong></td><td>A browser API (<code>navigator.bluetooth</code>) that lets a webpage pair with BLE devices. Works in Chrome on desktop and Android, but NOT in Capacitor's WebView by default.</td></tr>
+      <tr><td><strong>Capacitor BLE plugin</strong></td><td><code>@capacitor-community/bluetooth-le</code> — a Capacitor plugin that bridges JS calls to native Android Bluetooth. The replacement for Web Bluetooth inside the WebView.</td></tr>
+      <tr><td><strong>Web Bluetooth shim</strong></td><td>The small JS file (<code>www/web-bluetooth-shim.js</code>) we ship that monkey-patches <code>navigator.bluetooth</code> so unmodified web apps work in our wrapper. See section 16.</td></tr>
     </tbody>
   </table>
+</section>
+
+<!-- ======================================================== 16. BLE / micro:bit -->
+<section id="ble">
+  <h2><span class="num">16</span>BLE &amp; micro:bit apps <span style="color:var(--text-faint);font-size:0.7em">(Web Bluetooth → Capacitor)</span></h2>
+  <p class="lede">For wrappers around web apps that pair with BBC micro:bit (or any BLE device) over Web Bluetooth, the WebView needs a translation layer. This section explains why and how.</p>
+
+  <h3>16.1 Why Web Bluetooth doesn't "just work" in Capacitor</h3>
+  <p>
+    Open your micro:bit web app in Chrome on a phone — the "Connect" button works because Chrome exposes <code>navigator.bluetooth.requestDevice(...)</code>.
+    Wrap that same app with Capacitor and install the APK — the same button silently fails. Why?
+  </p>
+  <p>
+    Capacitor uses Android's <em>System WebView</em> (the same Chromium engine, but stripped of some "browser-only" APIs).
+    Web Bluetooth is hard-disabled in System WebView for security reasons (a random app shouldn't be able to silently pair with nearby BLE devices).
+    There's no flag, no manifest tag, no Capacitor option to turn it back on. The API is genuinely absent: <code>navigator.bluetooth</code> is <code>undefined</code>.
+  </p>
+
+  <h3>16.2 The fix: Capacitor BLE plugin + a shim</h3>
+  <p>Two pieces, one transparent solution:</p>
+  <ol>
+    <li><strong>Native plugin</strong> — <code>@capacitor-community/bluetooth-le</code> exposes a JS API that bridges to native Android Bluetooth. Different shape than Web Bluetooth, but it has all the same capabilities: scan, connect, services, characteristics, read, write, notifications.</li>
+    <li><strong>Web Bluetooth shim</strong> — <code>www/web-bluetooth-shim.js</code> monkey-patches <code>navigator.bluetooth</code> so it forwards calls to the Capacitor plugin. The web app's existing code keeps using <code>navigator.bluetooth.requestDevice(...)</code>; the shim quietly translates each call.</li>
+  </ol>
+  <p>Net effect: the web app needs <strong>zero changes</strong>. The wrapper handles it.</p>
+
+  <h3>16.3 What's wired up at spawn time</h3>
+  <p>When <code>books.yaml</code> entry has <code>needs_ble: true</code>, <code>koutoub-spawn.sh</code> automatically:</p>
+  <ol>
+    <li>Copies <code>www-overlay/web-bluetooth-shim.js</code> into the wrapper's <code>www/</code></li>
+    <li>Injects three <code>&lt;script&gt;</code> tags into <code>www/index.html</code> (after <code>&lt;head&gt;</code>):
+      <pre class="code">&lt;script src="cordova.js"&gt;&lt;/script&gt;
+&lt;script src="cordova_plugins.js"&gt;&lt;/script&gt;
+&lt;script src="web-bluetooth-shim.js"&gt;&lt;/script&gt;</pre>
+    </li>
+    <li>Adds <code>@capacitor-community/bluetooth-le</code> to <code>package.json</code> dependencies</li>
+    <li>Drops <code>_patch_ble.py</code> into the wrapper root for use by the build menu</li>
+  </ol>
+  <p>The first time you run <code>./manage.sh</code> → option 4 (sync), the menu detects the shim, runs <code>npx cap add android</code>, and then <code>_patch_ble.py</code> patches <code>android/app/src/main/AndroidManifest.xml</code>:</p>
+  <pre class="code">&lt;uses-permission android:name="android.permission.BLUETOOTH_SCAN"   android:usesPermissionFlags="neverForLocation" tools:targetApi="s" /&gt;
+&lt;uses-permission android:name="android.permission.BLUETOOTH_CONNECT" /&gt;
+&lt;uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" /&gt;
+&lt;!-- pre-Android 12 fallback --&gt;
+&lt;uses-permission android:name="android.permission.BLUETOOTH"          android:maxSdkVersion="30" /&gt;
+&lt;uses-permission android:name="android.permission.BLUETOOTH_ADMIN"    android:maxSdkVersion="30" /&gt;
+&lt;uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:maxSdkVersion="30" /&gt;
+&lt;uses-feature android:name="android.hardware.bluetooth_le" android:required="true" /&gt;</pre>
+
+  <h3>16.4 The pairing flow on the phone</h3>
+  <ol>
+    <li>App launches → splash → main UI loads → shim installs over <code>navigator.bluetooth</code></li>
+    <li>User taps a "Connect" button in the web app</li>
+    <li>App calls <code>navigator.bluetooth.requestDevice({ filters: [{ services: ['e95d...'] }] })</code></li>
+    <li>Shim catches the call, runs <code>BleClient.initialize()</code> on first call, then <code>BleClient.requestDevice(...)</code></li>
+    <li>Android shows a system-level device picker dialog — the user picks their micro:bit by name</li>
+    <li>Shim returns a fake <code>BluetoothDevice</code> object whose <code>gatt.connect()</code> forwards to <code>BleClient.connect(deviceId)</code></li>
+    <li>The web app calls <code>service.getCharacteristic(...)</code>, <code>characteristic.startNotifications()</code>, <code>characteristic.addEventListener('characteristicvaluechanged', ...)</code> — all forwarded by the shim</li>
+    <li>BLE notifications fire <code>characteristicvaluechanged</code> events, the web app updates its UI, life is good</li>
+  </ol>
+
+  <h3>16.5 What the shim does NOT cover</h3>
+  <ul>
+    <li><strong>Descriptors</strong> (BluetoothRemoteGATTDescriptor) — rarely used, not implemented</li>
+    <li><strong>Advertisement watching</strong> (<code>watchAdvertisements</code>) — not implemented</li>
+    <li><strong>Paired devices list</strong> (<code>navigator.bluetooth.getDevices()</code>) — not implemented</li>
+    <li><strong>Real-time connection state</strong> — <code>server.connected</code> reflects last-known state, not a live signal</li>
+  </ul>
+  <p>If your app uses any of those, you need to either patch the shim or migrate that part of the app's code to the Capacitor plugin's API directly.</p>
+
+  <h3>16.6 Permissions UX on Android 12+</h3>
+  <p>
+    On Android 12 (API 31+), Bluetooth permissions are <em>runtime</em> permissions — the user must approve them in a dialog when the app first tries to scan or connect.
+    The Capacitor BLE plugin's <code>initialize()</code> handles the prompt automatically. Make sure the user taps "Connect" (a clear gesture) BEFORE any scan starts —
+    Android requires a user gesture to grant BLE permissions in some configurations.
+  </p>
+  <p>
+    Pre-Android 12 (API ≤ 30), Bluetooth scanning required <code>ACCESS_FINE_LOCATION</code> for historical reasons — yes, scanning for BLE used to count as "location data".
+    The manifest declares this with <code>android:maxSdkVersion="30"</code> so it's only requested on older devices and skipped on Android 12+.
+  </p>
+
+  <h3>16.7 Testing checklist</h3>
+  <table class="neat">
+    <tbody>
+      <tr><td>1.</td><td>Install the debug APK on a real Android phone (BLE doesn't work in headless emulators).</td></tr>
+      <tr><td>2.</td><td>Make sure your micro:bit (or other BLE device) is powered on and advertising.</td></tr>
+      <tr><td>3.</td><td>Open the app, tap the connect button.</td></tr>
+      <tr><td>4.</td><td>Approve Bluetooth permissions in the system dialog.</td></tr>
+      <tr><td>5.</td><td>Pick the device in the system picker.</td></tr>
+      <tr><td>6.</td><td>Verify connect → read sensors → write commands → notifications all work.</td></tr>
+      <tr><td>7.</td><td>Force-stop the app and reopen — check reconnect works.</td></tr>
+      <tr><td>8.</td><td>If something fails: <code>adb logcat | grep -E "BLE|Bluetooth|Capacitor"</code> shows what's going on.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>16.8 Debugging recipes</h3>
+  <p><strong>Probe the shim is installed</strong> — connect Chrome devtools to <code>chrome://inspect/#devices</code> and run in the WebView console:</p>
+  <pre class="code">typeof navigator.bluetooth                  // "object"  ← shim installed
+typeof navigator.bluetooth.requestDevice    // "function"
+typeof window.Capacitor.Plugins.BluetoothLe // "object"</pre>
+  <p>If <code>navigator.bluetooth</code> is <code>undefined</code> the shim didn't load. Check the Network tab for a 404 on <code>web-bluetooth-shim.js</code>, and verify <code>cordova.js</code> + <code>cordova_plugins.js</code> are loading first (they bring in the Capacitor runtime that the shim depends on).</p>
+
+  <p><strong>Verify permissions are declared</strong>:</p>
+  <pre class="code">grep BLUETOOTH android/app/src/main/AndroidManifest.xml</pre>
+  <p>Should list BLUETOOTH_SCAN, BLUETOOTH_CONNECT, BLUETOOTH_ADVERTISE, plus pre-Android-12 fallbacks.</p>
+
+  <p><strong>BLE plugin not loaded</strong> means <code>npm install</code> didn't include <code>@capacitor-community/bluetooth-le</code> — re-check <code>package.json</code> dependencies, run <code>npm install</code>, then <code>npx cap sync android</code>.</p>
 </section>
 
 </main>
