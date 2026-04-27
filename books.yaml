@@ -8713,3 +8713,916 @@ books:
 
 
     De workshop-diy.org'
+- slug: pixel-gateway
+  needs_ble: true
+  category: Education
+  APP_NAME: Pixel Gateway
+  TITLE_AR: بوابة البكسل
+  TITLE_EN: PixelGateway
+  TITLE_FR: PixelGateway
+  BOOK_TITLE_AR: بوابة البكسل
+  BOOK_TITLE_EN: PixelGateway
+  BOOK_TITLE_FR: PixelGateway
+  EMOJI: 📡
+  KOUTOUB_DIR: app-02-pixel-gateway
+  BRAND_PRIMARY: '#4B7622'
+  BRAND_PRIMARY_DARK: '#2D4714'
+  BRAND_ACCENT: '#8ACB4D'
+  BRAND_GRADIENT_MID: '#3C5B1E'
+  BG_DARK: '#11170C'
+  TAGLINE_AR: بوابة البكسل — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: PixelGateway — micro:bit & Bluetooth for kids
+  TAGLINE_FR: PixelGateway — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (بوابة البكسل) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: بوابة البكسل — micro:bit & بلوتوث
+  SHORT_DESC_EN: PixelGateway — micro:bit BLE app for kids
+  SHORT_DESC_FR: PixelGateway — application micro:bit BLE
+  FULL_DESC_AR: '📡 بوابة البكسل
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '📡 PixelGateway
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '📡 PixelGateway
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
+- slug: morse-code
+  needs_ble: true
+  category: Education
+  APP_NAME: Morse Code
+  TITLE_AR: شيفرة مورس
+  TITLE_EN: Morse Kids Lab
+  TITLE_FR: Morse Kids Lab
+  BOOK_TITLE_AR: شيفرة مورس
+  BOOK_TITLE_EN: Morse Kids Lab
+  BOOK_TITLE_FR: Morse Kids Lab
+  EMOJI: 📡
+  KOUTOUB_DIR: app-03-morse-code
+  BRAND_PRIMARY: '#297622'
+  BRAND_PRIMARY_DARK: '#184714'
+  BRAND_ACCENT: '#57CB4D'
+  BRAND_GRADIENT_MID: '#235B1E'
+  BG_DARK: '#0D170C'
+  TAGLINE_AR: شيفرة مورس — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: Morse Kids Lab — micro:bit & Bluetooth for kids
+  TAGLINE_FR: Morse Kids Lab — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (شيفرة مورس) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: شيفرة مورس — micro:bit & بلوتوث
+  SHORT_DESC_EN: Morse Kids Lab — micro:bit BLE app for kids
+  SHORT_DESC_FR: Morse Kids Lab — application micro:bit BLE
+  FULL_DESC_AR: '📡 شيفرة مورس
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '📡 Morse Kids Lab
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '📡 Morse Kids Lab
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
+- slug: mission-control
+  needs_ble: true
+  category: Education
+  APP_NAME: Mission Control
+  TITLE_AR: مركز التحكم
+  TITLE_EN: MINI MISSION CONTROL (for kids!)
+  TITLE_FR: MINI MISSION CONTROL (for kids!)
+  BOOK_TITLE_AR: مركز التحكم
+  BOOK_TITLE_EN: MINI MISSION CONTROL (for kids!)
+  BOOK_TITLE_FR: MINI MISSION CONTROL (for kids!)
+  EMOJI: 🚀
+  KOUTOUB_DIR: app-04-mission-control
+  BRAND_PRIMARY: '#227628'
+  BRAND_PRIMARY_DARK: '#144718'
+  BRAND_ACCENT: '#4DCB55'
+  BRAND_GRADIENT_MID: '#1E5B22'
+  BG_DARK: '#0C170D'
+  TAGLINE_AR: مركز التحكم — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: MINI MISSION CONTROL (for kids!) — micro:bit & Bluetooth for kids
+  TAGLINE_FR: MINI MISSION CONTROL (for kids!) — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (مركز التحكم) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: مركز التحكم — micro:bit & بلوتوث
+  SHORT_DESC_EN: MINI MISSION CONTROL (for kids!) — micro:bit BLE app for kids
+  SHORT_DESC_FR: MINI MISSION CONTROL (for kids!) — application micro:bit BLE
+  FULL_DESC_AR: '🚀 مركز التحكم
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '🚀 MINI MISSION CONTROL (for kids!)
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '🚀 MINI MISSION CONTROL (for kids!)
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
+- slug: ble-logger
+  needs_ble: true
+  category: Education
+  APP_NAME: BLE Logger
+  TITLE_AR: مسجل البلوتوث
+  TITLE_EN: BLE Logger
+  TITLE_FR: BLE Logger
+  BOOK_TITLE_AR: مسجل البلوتوث
+  BOOK_TITLE_EN: BLE Logger
+  BOOK_TITLE_FR: BLE Logger
+  EMOJI: 📡
+  KOUTOUB_DIR: app-05-ble-logger
+  BRAND_PRIMARY: '#22765E'
+  BRAND_PRIMARY_DARK: '#144738'
+  BRAND_ACCENT: '#4DCBA7'
+  BRAND_GRADIENT_MID: '#1E5B4A'
+  BG_DARK: '#0C1714'
+  TAGLINE_AR: مسجل البلوتوث — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: BLE Logger — micro:bit & Bluetooth for kids
+  TAGLINE_FR: BLE Logger — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (مسجل البلوتوث) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: مسجل البلوتوث — micro:bit & بلوتوث
+  SHORT_DESC_EN: BLE Logger — micro:bit BLE app for kids
+  SHORT_DESC_FR: BLE Logger — application micro:bit BLE
+  FULL_DESC_AR: '📡 مسجل البلوتوث
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '📡 BLE Logger
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '📡 BLE Logger
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
+- slug: talking-robot
+  needs_ble: true
+  category: Education
+  APP_NAME: Talking Robot
+  TITLE_AR: الروبوت الناطق
+  TITLE_EN: TALKING ROBOT
+  TITLE_FR: TALKING ROBOT
+  BOOK_TITLE_AR: الروبوت الناطق
+  BOOK_TITLE_EN: TALKING ROBOT
+  BOOK_TITLE_FR: TALKING ROBOT
+  EMOJI: 🤖
+  KOUTOUB_DIR: app-06-talking-robot
+  BRAND_PRIMARY: '#227076'
+  BRAND_PRIMARY_DARK: '#144347'
+  BRAND_ACCENT: '#4DC2CB'
+  BRAND_GRADIENT_MID: '#1E575B'
+  BG_DARK: '#0C1617'
+  TAGLINE_AR: الروبوت الناطق — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: TALKING ROBOT — micro:bit & Bluetooth for kids
+  TAGLINE_FR: TALKING ROBOT — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (الروبوت الناطق) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: الروبوت الناطق — micro:bit & بلوتوث
+  SHORT_DESC_EN: TALKING ROBOT — micro:bit BLE app for kids
+  SHORT_DESC_FR: TALKING ROBOT — application micro:bit BLE
+  FULL_DESC_AR: '🤖 الروبوت الناطق
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '🤖 TALKING ROBOT
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '🤖 TALKING ROBOT
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
+- slug: bit-bot
+  needs_ble: true
+  category: Education
+  APP_NAME: Bit Bot
+  TITLE_AR: بيت-بوت
+  TITLE_EN: bit-bot V2
+  TITLE_FR: bit-bot V2
+  BOOK_TITLE_AR: بيت-بوت
+  BOOK_TITLE_EN: bit-bot V2
+  BOOK_TITLE_FR: bit-bot V2
+  EMOJI: 🤖
+  KOUTOUB_DIR: app-07-bit-bot
+  BRAND_PRIMARY: '#226176'
+  BRAND_PRIMARY_DARK: '#143A47'
+  BRAND_ACCENT: '#4DABCB'
+  BRAND_GRADIENT_MID: '#1E4C5B'
+  BG_DARK: '#0C1417'
+  TAGLINE_AR: بيت-بوت — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: bit-bot V2 — micro:bit & Bluetooth for kids
+  TAGLINE_FR: bit-bot V2 — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (بيت-بوت) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: بيت-بوت — micro:bit & بلوتوث
+  SHORT_DESC_EN: bit-bot V2 — micro:bit BLE app for kids
+  SHORT_DESC_FR: bit-bot V2 — application micro:bit BLE
+  FULL_DESC_AR: '🤖 بيت-بوت
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '🤖 bit-bot V2
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '🤖 bit-bot V2
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
+- slug: salat-times
+  needs_ble: true
+  category: Education
+  APP_NAME: Salat Times
+  TITLE_AR: مواقيت الصلاة
+  TITLE_EN: Salat Times
+  TITLE_FR: Salat Times
+  BOOK_TITLE_AR: مواقيت الصلاة
+  BOOK_TITLE_EN: Salat Times
+  BOOK_TITLE_FR: Salat Times
+  EMOJI: 🕌
+  KOUTOUB_DIR: app-08-salat-times
+  BRAND_PRIMARY: '#223176'
+  BRAND_PRIMARY_DARK: '#141D47'
+  BRAND_ACCENT: '#4D64CB'
+  BRAND_GRADIENT_MID: '#1E295B'
+  BG_DARK: '#0C0E17'
+  TAGLINE_AR: مواقيت الصلاة — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: Salat Times — micro:bit & Bluetooth for kids
+  TAGLINE_FR: Salat Times — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (مواقيت الصلاة) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: مواقيت الصلاة — micro:bit & بلوتوث
+  SHORT_DESC_EN: Salat Times — micro:bit BLE app for kids
+  SHORT_DESC_FR: Salat Times — application micro:bit BLE
+  FULL_DESC_AR: '🕌 مواقيت الصلاة
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '🕌 Salat Times
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '🕌 Salat Times
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
+- slug: maqueen-app
+  needs_ble: true
+  category: Education
+  APP_NAME: Maqueen App
+  TITLE_AR: مختبر ماكوين
+  TITLE_EN: Maqueen Lab
+  TITLE_FR: Maqueen Lab
+  BOOK_TITLE_AR: مختبر ماكوين
+  BOOK_TITLE_EN: Maqueen Lab
+  BOOK_TITLE_FR: Maqueen Lab
+  EMOJI: 📡
+  KOUTOUB_DIR: app-09-maqueen-app
+  BRAND_PRIMARY: '#372276'
+  BRAND_PRIMARY_DARK: '#211447'
+  BRAND_ACCENT: '#6C4DCB'
+  BRAND_GRADIENT_MID: '#2D1E5B'
+  BG_DARK: '#0F0C17'
+  TAGLINE_AR: مختبر ماكوين — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: Maqueen Lab — micro:bit & Bluetooth for kids
+  TAGLINE_FR: Maqueen Lab — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (مختبر ماكوين) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: مختبر ماكوين — micro:bit & بلوتوث
+  SHORT_DESC_EN: Maqueen Lab — micro:bit BLE app for kids
+  SHORT_DESC_FR: Maqueen Lab — application micro:bit BLE
+  FULL_DESC_AR: '📡 مختبر ماكوين
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '📡 Maqueen Lab
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '📡 Maqueen Lab
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
+- slug: flight-tracker
+  needs_ble: true
+  category: Education
+  APP_NAME: Flight Tracker
+  TITLE_AR: متتبع الطائرات
+  TITLE_EN: Planes in the Sky
+  TITLE_FR: Planes in the Sky
+  BOOK_TITLE_AR: متتبع الطائرات
+  BOOK_TITLE_EN: Planes in the Sky
+  BOOK_TITLE_FR: Planes in the Sky
+  EMOJI: ✈
+  KOUTOUB_DIR: app-10-flight-tracker
+  BRAND_PRIMARY: '#542276'
+  BRAND_PRIMARY_DARK: '#321447'
+  BRAND_ACCENT: '#984DCB'
+  BRAND_GRADIENT_MID: '#431E5B'
+  BG_DARK: '#120C17'
+  TAGLINE_AR: متتبع الطائرات — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: Planes in the Sky — micro:bit & Bluetooth for kids
+  TAGLINE_FR: Planes in the Sky — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (متتبع الطائرات) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: متتبع الطائرات — micro:bit & بلوتوث
+  SHORT_DESC_EN: Planes in the Sky — micro:bit BLE app for kids
+  SHORT_DESC_FR: Planes in the Sky — application micro:bit BLE
+  FULL_DESC_AR: '✈ متتبع الطائرات
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '✈ Planes in the Sky
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '✈ Planes in the Sky
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
+- slug: face-quest
+  needs_ble: true
+  category: Education
+  APP_NAME: Face Quest
+  TITLE_AR: مغامرة الوجوه
+  TITLE_EN: Face Quest
+  TITLE_FR: Face Quest
+  BOOK_TITLE_AR: مغامرة الوجوه
+  BOOK_TITLE_EN: Face Quest
+  BOOK_TITLE_FR: Face Quest
+  EMOJI: 🧠
+  KOUTOUB_DIR: app-11-face-quest
+  BRAND_PRIMARY: '#762275'
+  BRAND_PRIMARY_DARK: '#471446'
+  BRAND_ACCENT: '#CB4DC9'
+  BRAND_GRADIENT_MID: '#5B1E5A'
+  BG_DARK: '#170C17'
+  TAGLINE_AR: مغامرة الوجوه — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: Face Quest — micro:bit & Bluetooth for kids
+  TAGLINE_FR: Face Quest — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (مغامرة الوجوه) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: مغامرة الوجوه — micro:bit & بلوتوث
+  SHORT_DESC_EN: Face Quest — micro:bit BLE app for kids
+  SHORT_DESC_FR: Face Quest — application micro:bit BLE
+  FULL_DESC_AR: '🧠 مغامرة الوجوه
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '🧠 Face Quest
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '🧠 Face Quest
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
+- slug: rxy
+  needs_ble: true
+  category: Education
+  APP_NAME: Rxy
+  TITLE_AR: باني Remote
+  TITLE_EN: Micro:bit Remote Builder
+  TITLE_FR: Micro:bit Remote Builder
+  BOOK_TITLE_AR: باني Remote
+  BOOK_TITLE_EN: Micro:bit Remote Builder
+  BOOK_TITLE_FR: Micro:bit Remote Builder
+  EMOJI: 🎮
+  KOUTOUB_DIR: app-12-rxy
+  BRAND_PRIMARY: '#762257'
+  BRAND_PRIMARY_DARK: '#471434'
+  BRAND_ACCENT: '#CB4D9D'
+  BRAND_GRADIENT_MID: '#5B1E45'
+  BG_DARK: '#170C13'
+  TAGLINE_AR: باني Remote — micro:bit & بلوتوث للأطفال
+  TAGLINE_EN: Micro:bit Remote Builder — micro:bit & Bluetooth for kids
+  TAGLINE_FR: Micro:bit Remote Builder — micro:bit & Bluetooth pour enfants
+  ABOUT_AR: تطبيق تفاعلي (باني Remote) يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). جزء من سلسلة workshop-diy.org
+    التعليمية للأطفال.
+  ABOUT_EN: Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy (BLE). Part of the workshop-diy.org
+    educational series for kids.
+  ABOUT_FR: Application interactive qui se connecte à une carte BBC micro:bit V2 via Bluetooth Low Energy (BLE). Partie de
+    la série éducative workshop-diy.org pour enfants.
+  SHORT_DESC_AR: باني Remote — micro:bit & بلوتوث
+  SHORT_DESC_EN: Micro:bit Remote Builder — micro:bit BLE app for kids
+  SHORT_DESC_FR: Micro:bit Remote Builder — application micro:bit BLE
+  FULL_DESC_AR: '🎮 باني Remote
+
+
+    تطبيق تفاعلي يربط بلوحة BBC micro:bit V2 عبر البلوتوث منخفض الطاقة (BLE). للأطفال ومحبي التكنولوجيا.
+
+
+    ✨ المزايا
+
+    • اتصال BLE
+
+    • واجهة تفاعلية
+
+    • ثلاث لغات: عربية، إنجليزية، فرنسية
+
+    • يعمل بدون اتصال بالإنترنت
+
+
+    من workshop-diy.org'
+  FULL_DESC_EN: '🎮 Micro:bit Remote Builder
+
+
+    Interactive web app that pairs with a BBC micro:bit V2 over Bluetooth Low Energy. Part of the workshop-diy.org series.
+
+
+    ✨ Features
+
+    • BLE connection
+
+    • Interactive UI
+
+    • Three languages: Arabic, English, French
+
+    • Works offline
+
+
+    From workshop-diy.org'
+  FULL_DESC_FR: '🎮 Micro:bit Remote Builder
+
+
+    Application interactive qui se connecte à un BBC micro:bit V2 via Bluetooth Low Energy. Partie de la série workshop-diy.org.
+
+
+    ✨ Fonctionnalités
+
+    • Connexion BLE
+
+    • Interface interactive
+
+    • Trois langues: arabe, anglais, français
+
+    • Fonctionne hors ligne
+
+
+    De workshop-diy.org'
