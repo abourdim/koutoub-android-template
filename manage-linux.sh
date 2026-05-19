@@ -186,6 +186,11 @@ cmd_sync() {
       info "BLE app detected (web-bluetooth-shim.js in www/) — patching AndroidManifest..."
       python3 "$PROJECT_DIR/_patch_ble.py" "$PROJECT_DIR"
     fi
+    # If this is a camera app (_patch_camera.py present), wire AndroidManifest perms
+    if [ -x "$PROJECT_DIR/_patch_camera.py" ]; then
+      info "Camera app detected (_patch_camera.py present) — patching AndroidManifest..."
+      python3 "$PROJECT_DIR/_patch_camera.py" "$PROJECT_DIR"
+    fi
   fi
   npx cap sync android
   ok "Android project refreshed."

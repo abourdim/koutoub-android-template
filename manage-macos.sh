@@ -199,6 +199,15 @@ cmd_sync() {
     if [ -x "$PROJECT_DIR/_patch_signing.py" ]; then
       python3 "$PROJECT_DIR/_patch_signing.py" "$ANDROID_DIR/app/build.gradle"
     fi
+    # Conditional capability patches — files exist only when books.yaml flagged the feature.
+    if [ -f "$WWW_DIR/web-bluetooth-shim.js" ] && [ -x "$PROJECT_DIR/_patch_ble.py" ]; then
+      info "Bluetooth shim detected — wiring AndroidManifest..."
+      python3 "$PROJECT_DIR/_patch_ble.py" "$PROJECT_DIR"
+    fi
+    if [ -x "$PROJECT_DIR/_patch_camera.py" ]; then
+      info "Camera flag detected — wiring AndroidManifest..."
+      python3 "$PROJECT_DIR/_patch_camera.py" "$PROJECT_DIR"
+    fi
   fi
 
   info "Running: npx cap sync android"
