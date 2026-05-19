@@ -136,8 +136,12 @@ tpl, dst, book_json = sys.argv[1], sys.argv[2], sys.argv[3]
 book = json.loads(book_json)
 
 # files we DO NOT copy from the template into the rendered repo
-EXCLUDE_FILES = {'books.yaml', 'koutoub-spawn.sh'}
+EXCLUDE_FILES = {'books.yaml', 'koutoub-spawn.sh',
+                 # conditional patches — copied separately only when needed (see needs_ble / needs_camera below)
+                 '_patch_ble.py', '_patch_camera.py'}
 EXCLUDE_DIRS  = {'docs', 'www-overlay', '.git', '_bulk-logs', 'node_modules', 'android', 'ios', 'releases'}
+# additional skip patterns (backups, OS junk)
+EXCLUDE_GLOBS = ['books.yaml.bak.*', '.DS_Store', '*.tmp', '*.swp']
 
 # files that should NOT have placeholder substitution (binary or copy-as-is)
 NO_RENDER_PATTERNS = ['*.png', '*.jpg', '*.jpeg', '*.svg', '*.apk', '*.aab', '*.ipa', '*.keystore', '*.jks']
@@ -175,6 +179,9 @@ for root, dirs, files in os.walk(tpl):
 
     for fn in files:
         if fn in EXCLUDE_FILES:
+            continue
+        # skip backup / OS junk via glob patterns
+        if any(fnmatch.fnmatch(fn, pat) for pat in EXCLUDE_GLOBS):
             continue
         # skip the template's own top-level README (it documents the template, not the spawned repo)
         if rel_root == '' and fn == 'README.md':
@@ -294,6 +301,15 @@ PY
   cp "$TPL_DIR/_patch_ble.py" "$TARGET_DIR/_patch_ble.py"
   chmod +x "$TARGET_DIR/_patch_ble.py"
   ok "_patch_ble.py copied (run after `npx cap add android` to wire AndroidManifest)"
+fi
+
+# ---------- Camera wiring (if books.yaml has needs_camera: true) ----------
+NEEDS_CAMERA=$(printf '%s' "$BOOK_JSON" | python3 -c "import json,sys; b=json.load(sys.stdin); print('1' if b.get('needs_camera') else '0')" 2>/dev/null || echo 0)
+if [ "$NEEDS_CAMERA" = "1" ]; then
+  head1 "Camera wiring (needs_camera: true)"
+  cp "$TPL_DIR/_patch_camera.py" "$TARGET_DIR/_patch_camera.py"
+  chmod +x "$TARGET_DIR/_patch_camera.py"
+  ok "_patch_camera.py copied (run after `npx cap add android` to add CAMERA + RECORD_AUDIO perms)"
 fi
 
 # ---------- git init ----------
